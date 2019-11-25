@@ -1,0 +1,1870 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Последние сообщения</title>
+    <meta name="description" content="Последние сообщения" />
+
+    
+    
+<script src="https://yastatic.net/pcode/adfox/loader.js" crossorigin="anonymous"></script>
+
+
+                    
+                        <link rel="canonical" href="/forum/">
+            
+            <base href="/forum/">
+        <link rel="alternate" type="application/rss+xml" title="RSS-лента для Dota 2 Форум" href="forums/-/index.rss" />
+    
+    <meta property="og:site_name" content="dota2.ru"/>
+<meta property="twitter:domain" content="dota2.ru"/>
+<meta property="twitter:site" content="@dota2russia"/>
+
+    <meta property="og:title" content="Последние сообщения"/>
+    <meta property="twitter:title" content="Последние сообщения"/>
+
+    <meta property="og:description" content="Последние сообщения"/>
+    <meta property="twitter:description" content="Последние сообщения"/>
+
+
+<meta property="og:type" content="article"/>
+
+<meta property="og:image" content="/img/dota2m.png"/>
+<meta property="twitter:image" content="/img/dota2m.png"/>
+
+
+
+
+
+    <link rel="stylesheet" href="/css/forum/d2.min.css?248">
+
+    <script src="/js/jquery-2.1.1.min.js?248"></script><script src="/js/jquery.json.min.js?248"></script><script src="/js/jquery-ui-1.10.4.custom.min.js?248"></script>
+    
+    <link rel="stylesheet" href="/css/mobile.css?248">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    
+    </head>
+
+<body id="id">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <script src="/js/forum/jquery.min.js?248"></script>
+    <script src="/js/forum/jquery.noty.packaged.min.js?248"></script>
+    <script src="/js/forum/jquery.scrollTo.min.js?248"></script>
+
+    <script src="/js/forum/logger.min.js?248"></script>
+    <script src="/js/forum/mobile-detect.min.js?248"></script>
+    <script src="/js/forum/app.min.js?248"></script>
+
+<div class="ranni"></div>
+<div id="dappo">
+<div class="dessa"><div>	<a href="/plain/102" target="_blank" id="iaj14" rel="nofollow noreferrer noopener">
+		<img class="brand1250" style="display: none;" src="/img/wghsfheader.jpg">
+		<img class="brand425" style="display: none;" src="/img/wghsfmobile1.jpg">
+	</a>
+</div></div>
+
+
+<!--AdFox START-->
+<!--Rubidian-->
+<!--Площадка: dota2.ru / Все страницы / [Counter] Branding-->
+<!--Категория: Счетчики-->
+<!--Баннер: Счетчики-->
+<!--Тип баннера: 1x1-->
+<div id="adfox_157011561338046896"></div>
+<script>
+    window.Ya.adfoxCode.create({
+        ownerId: 265472,
+        containerId: 'adfox_157011561338046896',
+        params: {
+            p1: 'chfba',
+            p2: 'frfe',
+            pfc: 'cmkwt',
+            pfb: 'gxyqm'
+        }
+    });
+</script>
+
+<!-- Общие стили -->
+<style type="text/css">
+	.wrap,
+	.full-wrap {
+		padding-top: 15px;
+	}
+
+@media screen and (max-width: 1250px)
+{
+	body #dappo {
+		background: none !important;
+		min-width: initial !important;
+		padding: 0 !important;
+	}
+	body #dappo > .dessa a {
+		position: static !important;
+		height: auto !important;
+	}
+	body #dappo > .dessa .brand1250 {
+		display: block !important;
+		width: 100%;
+	}
+	.wrap, .full-wrap {
+	    padding-top: 1%;
+	}
+}
+@media screen and (max-width: 426px)
+{
+	body #dappo > .dessa a > .brand1250 {
+		display: none !important;
+	}
+
+	body #dappo > .dessa a > .brand425 {
+		display: block !important;
+		width: 100%;
+	}
+}
+
+#dappo {
+	background: #000001 url(/img/wghsf.jpg) center top no-repeat !important;
+	padding: 200px 0 0 !important;
+	min-width: 1250px;
+}
+nav,
+.menu {
+	border-radius: 3px 3px 0 0;
+}
+
+#iaj14 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1080px;
+}
+</style>
+
+<style>
+    #kalambur {
+        position:fixed;
+        width:100%;
+        height:100%;
+        background: rgba(0, 0, 0, 0.9); 
+        z-index:99998;
+        top:0;
+        left:0;
+        display: none;
+    }
+    .close,
+    .timer {
+        color: #aaa;
+        position: absolute;
+        z-index: 9;
+    }
+    .close {
+        right: 5px;
+        top: 5px;
+        font-size: 14px;
+    }
+    .timer {
+        font-size: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: 30px;
+        top: 8px;
+    }
+    .close:hover {
+        color: #fff;
+        cursor: pointer;
+    }
+    #text {
+        text-align: center;
+        line-height: 0;
+        font-size: 0;
+        height: 100%;
+    }
+    #text img {
+        max-width: 100%;
+        max-height: 100%;
+        opacity: .9;
+        margin: 0 auto;
+    }
+    #text a:hover img {
+        opacity: 1;
+    }
+    #text a {
+        text-decoration: none;
+    }
+    table {
+        /*position: fixed;*/
+        margin: 0 auto;
+        height: 100%;
+    }
+    td {
+        vertical-align: middle;
+    }
+</style>
+
+<div id="kalambur">
+    <a class="close" onclick="closePopup()">Закрыть</a>
+    <div id="text">
+        <span id="seconds" class="timer">15</span>
+                    <a id="link1024" target="_blank" href="/plain/69" rel="nofollow">
+                <img src="/img/888fs1024-2.jpg" onclick="closePopup()">
+            </a>
+            </div>
+</div>
+
+<script>
+    // Adblock
+    function helpUsImproveSite() {
+        var height = document.documentElement.clientHeight;
+        var table = document.getElementById("table");
+
+        // table.style.marginTop = $(window).scrollTop() + 'px';
+        // table.style.height = (height) + 'px';
+
+        if(height < 600)
+        {
+            // document.getElementById('img').style.height = (height - 13) + 'px';
+        }
+
+        document.getElementById("kalambur").style.display = 'block';
+        document.documentElement.style.overflow = 'hidden';
+    }
+
+    var timerSec = 15;
+    function start_timer() {
+        var seconds = document.getElementById("seconds");
+        var close_interval = setInterval(function()
+        {
+            if (timerSec == 1) {
+                clearInterval(close_interval);
+                closePopup();
+                return;
+            }
+            --timerSec;
+            seconds.innerHTML = timerSec;
+        }
+        , 1000);
+    }
+
+    function closePopup() {
+        document.getElementById("kalambur").style.display = 'none';
+        document.documentElement.style.overflow = 'auto';
+    }
+
+    // Должен работать только если включены куки
+    if (navigator.cookieEnabled)
+    {
+            }
+</script>
+
+
+<div class="wrap" id="glob-wrap">
+
+    <header>
+    <div>
+
+        
+        <nav>
+            <a class="mobile-logo" href="/"><img src="/img/dota2m.png" alt="Dota 2"></a>
+            <a class="mobile-logo mobile-short-menu" href="/forum/">Форум</a>
+            <a class="mobile-logo mobile-short-menu" href="/news/">Новости</a>
+            <a class="mobile-logo mobile-short-menu promote epicenter-2019" href="/mdl-chengdu-major/" style="padding: 0;"><img src="/img/esport/mdl-icon.png" alt="MDL Chengdu Major" class="theinticon" style="height: 30px; padding: 0 5px; vertical-align: middle;"></a>
+
+            <a id="nav-menu-button" href="javascript:closeAndOpenMenu();" tabindex="1"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <script>
+                function closeAndOpenMenu()
+                {
+                    $('#nav-menu-ul').toggle();
+                }
+            </script>
+
+            <ul id="nav-menu-ul">
+                <li >
+                                            <a href="/"><img src="/img/dota2.png" alt="Dota 2"></a>
+                    
+                    
+                    
+                                    </li>
+
+                <li class="active">
+                    <a href="/forum/">Форум</a>
+                    
+                                    </li>
+
+                                                
+                <li >
+                    <a href="/news/">Новости</a>
+                    <ol>
+                        <li ><a href="/blogs/">Блоги</a></li>
+                        <li ><a href="/news/hardware/">Железо</a></li>
+                    </ol>
+
+                    
+                                        
+                </li>
+
+                <li ><a href="/esport/matches/">Киберспорт</a>
+                    <ol>
+                        <li ><a href="/esport/tournaments/">Турниры</a></li>
+                        <li ><a href="/esport/teams/">Команды</a></li>
+                        <li ><a href="/esport/matches/">Матчи</a></li>
+                        <li><a href="/news/12726-rejting-pro-circuit-sezona-1920/">Сезон 2019-2020</a></li>
+                        <li><a href="/mdl-chengdu-major/">MDL Chengdu Major</a></li>
+                    </ol>
+
+                    
+                    
+                    
+                    
+                                    </li>
+
+                <li >
+                    <a href="#">База знаний</a>
+                    <ol>
+                        <li ><a href="/heroes/">Герои</a></li>
+                        <li ><a href="/items/">Предметы</a></li>
+                        <li class=""><a href="/guides/">Гайды</a></li>
+                        <li class=""><a href="/tactics/">Тактика</a></li>
+                        <li><a href="/forum/forums/texnicheskaja-podderzhka.47/">Тех. поддержка</a></li>
+                        <li ><a href="/article/">Статьи</a></li>
+                        <li ><a href="/price/inventory/">Стоимость инвентаря</a></li>
+                    </ol>
+                                    </li>
+
+                <li >
+                    <a href="/streams/">Стримы</a>
+                    <ol>
+                        <li ><a href="/streams/request/">Разместить свой стрим</a></li>
+                    </ol>
+
+                                    </li>
+
+                <li >
+                    <a href="/video/">Видео</a>
+
+                                                        </li>
+
+                <li >
+                    <a href="/memes/">Мемы</a>
+
+                                    </li>
+    
+                <li >
+                    <a href="/donate/">Услуги</a>
+                    <ol style="right: 0;">
+                        <li ><a href="/donate/category/profile/">Премиум аккаунт</a></li>
+                        <li ><a href="/donate/change_nickname/5/">Смена ника</a></li>
+                        <li ><a href="/donate/category/streams/">Выделение стрима</a></li>
+                        <li ><a href="/donate/video_publish/23/">Размещение видео</a></li>
+                        <li ><a href="/donate/dotabuff/">Dotabuff Plus</a></li>
+                    </ol>
+                </li>
+
+                <li >
+                    <a href="/csgo/">CS:GO</a>
+                    <a href="/csgo/" style="position: absolute; top: 0; font-size: 11px; color: #f84e4e; right: 0; line-height: 1.5;">new</a>
+                </li>
+
+                <li>
+                    <a href="/mdl-chengdu-major/" style="padding: 0 12px 1px 11px;" class="epicenter-2019">
+                        <img src="/img/esport/mdl-icon.png" alt="MDL Chengdu Major" style="width:72px;">
+                    </a>
+                </li>
+
+                            </ul>
+        </nav>
+
+        <div class="clb"></div>
+        <div class="subline">
+            <div class="social">
+                <a target="_blank" href="//vk.com/d2ru" rel="nofollow"><i class="fa fa-vk"></i></a>
+                                <a target="_blank" href="//twitter.com/dota2russia" rel="nofollow"><i class="fa fa-twitter"></i></a>
+                            </div>
+
+            
+            
+            
+            
+                                                <div class="login"><a href="#" class="site-login">Вход</a></div>
+                            
+                        <div class="clb"></div>
+        </div>
+
+        <style>
+.larn {
+    width: 728px;
+    height: 90px;
+    margin: 0 auto 15px;
+    background: #1b1c20;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.larn a {
+    width: 728px;
+    height: 90px;
+    display: block;
+}
+@media only screen and (max-width: 728px)
+{
+	.larn {
+	    width: 100%;
+	    height: auto;
+	    font-size: 0;
+	}
+	.larn a {
+	    width: auto;
+	    height: auto;
+	    background: none;
+        margin: 0;
+	}
+	.larn img {
+	    width: 100%;
+	}	
+}
+
+@media screen and (max-width: 426px)
+{
+    .a72 {
+        display: none !important;
+    }
+
+    .a42 {
+        display: block !important;
+        width: 100%;
+    }
+}
+
+</style>
+<div class="larn adv">
+<!-- Yandex.RTB R-A-127884-2 -->
+<div id="yandex_rtb_R-A-127884-2"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-127884-2",
+                renderTo: "yandex_rtb_R-A-127884-2",
+                async: true,
+            }, function altCallback () {
+                // код вызова своей рекламы в блоке
+                var g = document.createElement("ins");
+                g.className = "adsbygoogle";
+                g.style.display = "inline-block";
+                g.style.width = "728px";
+                g.style.height = "90px";
+                g.setAttribute("data-ad-client", "ca-pub-0294405751811608");
+                g.setAttribute("data-ad-slot", "8216704044");
+                document.getElementById("yandex_rtb_R-A-127884-2").appendChild(g);
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+
+</div>
+<!--AdFox START-->
+<!--Rubidian-->
+<!--Площадка: dota2.ru / Все страницы / [Counter] 728x90 top-->
+<!--Категория: Счетчики-->
+<!--Баннер: Счетчики-->
+<!--Тип баннера: 1x1-->
+<div id="adfox_157011595781658497"></div>
+<script>
+    window.Ya.adfoxCode.create({
+        ownerId: 265472,
+        containerId: 'adfox_157011595781658497',
+        params: {
+            p1: 'chfbg',
+            p2: 'frfe',
+            pfc: 'cmkwt',
+            pfb: 'haskg'
+        }
+    });
+</script>
+
+                    <div id="navigation" class="page-width">
+
+    <div class="nav-tabs">
+        <ul class="public-tabs">
+            <li class="nav-tab ">
+                <a href="/forum/" class="nav-link">Форум</a>
+            </li>
+            <li class="nav-tab  PopupClosed">
+                <a class="nav-link" href="rules/">Правила</a>
+            </li>
+            <li class="nav-tab  PopupClosed">
+                <a class="nav-link" href="members/">Пользователи</a>
+            </li>
+            <li class="nav-tab selected PopupClosed">
+                <a class="nav-link" href="new/posts">Новые сообщения</a>
+            </li>
+                    </ul>
+        <ul class="second-tabs">
+                                                <li><a href="search/">Поиск</a></li>                                    </ul>
+    </div>
+
+    <fieldset id="QuickSearch" class="">
+        <form class="formPopup" method="get" action="search/all">
+            <input type="search" id="QuickSearchQuery" title="Введите параметры поиска" results="0" placeholder="Поиск..." class="text-ctrl" value="" name="keywords">
+        </form>
+    </fieldset>
+</div>        
+                <script type="text/javascript">
+            function isLogged() {
+                                return '0';
+                            }
+            function getForumPrefix() {
+                return 'forum/';
+            }
+        </script>
+    </div>
+    </header>
+    <div class="full-page-container">
+
+    <div class="breadcrumbs-container-top">
+        <nav>
+    <fieldset class="breadcrumb">
+        <span class="crumbs">
+            <span class="crust homeCrumb " itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="/forum/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Форум</span></a>
+                <span class="arrow"><span>&gt;</span></span>
+            </span>
+
+                                                <span class="crust selectedTabCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+                        <a href="new/posts/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Последние сообщения</span></a>
+                        <span class="arrow"><span>&gt;</span></span>
+                    </span>
+                                    </span>
+
+    </fieldset>
+</nav>
+    </div>
+
+    <div class="inner-content">
+
+        <div class="page-title">
+            <h1>Последние сообщения</h1>
+        </div>
+
+        <div id="users-tabs-container">
+            <ul class="tabs">
+                <li class="tab-title active">
+                    <a href="new/posts/"><i class="fa fa-comment fa-fw"></i> Последние сообщения</a>
+                </li>
+                <li class="tab-title ">
+                    <a href="new/profile-posts/"><i class="fa fa-bullhorn fa-fw"></i> Последние сообщения профилей</a>
+                </li>
+            </ul>
+
+            <div class="tabs-content">
+                <div class="content active">
+                    <div class="section">
+                                                    <div class="inner-content">
+                                <div class="discussionList section sectionMain">
+
+                                    <dl class="sectionHeaders">
+                                        <dt class="posterAvatar"></dt>
+                                        <dd class="main">
+                                            <span>Заголовок</span>
+                                        </dd>
+                                        <dd class="stats no-padding-bottom">
+                                            <span>Ответов</span>
+                                            <span>Просмотров</span>
+                                        </dd>
+                                        <dd class="lastPost"><span>Последнее сообщение</span></dd>
+                                    </dl>
+
+                                    <ul class="discussionListItems">
+
+                                                                                                                                    <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/fedortikus.753618/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="fedortikus">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/igrokov-na-kakix-gerojax-vy-uvazhaete-bolshe-vsego.1327369/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        игроков на каких героях вы уважаете больше всего?                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/fedortikus.753618/" style="color: #989899" class="username" title="Автор темы">fedortikus</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574438187" title="Дата создания темы">22 Nov 2019 в 18:56</span>,
+                                                                    <a href="forums/obschie-voprosy-i-obsuzhdenija.5">Общие вопросы и обсуждения</a>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>16</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>86</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/fedortikus.753618/" class="avatar"><img src="/img/forum/avatars/s/753/753618.jpg?1548235620" width="50" height="50" alt="fedortikus"></a>
+                                                                <dt><a href="members/fedortikus.753618/" class="username">fedortikus</a></dt>
+                                                                <dd class="muted"><a href="posts/22923446/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439978">22 Nov 2019 в 19:26</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/nad1n_top1.788707/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="Nad1n_Top1">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/admiralbulldonger-3.1327376/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        AdmiralBulldonger &lt;3                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/nad1n_top1.788707/" style="color: #989899" class="username" title="Автор темы">Nad1n_Top1</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574439974" title="Дата создания темы">22 Nov 2019 в 19:26</span>,
+                                                                    <a href="forums/taverna.6">Таверна</a>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>0</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>0</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/nad1n_top1.788707/" class="avatar"><img src="/img/forum/avatars/s/788/788707.jpg?1574264206" width="50" height="50" alt="Nad1n_Top1"></a>
+                                                                <dt><a href="members/nad1n_top1.788707/" class="username">Nad1n_Top1</a></dt>
+                                                                <dd class="muted"><a href="posts/22923445/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439974">22 Nov 2019 в 19:26</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/middle-only_xd.669774/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="Middle.Only_xD">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/mir-glazami-mipopikera.1327259/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        Мир глазами мипопикера                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/middle-only_xd.669774/" style="color: #989899" class="username" title="Автор темы">Middle.Only_xD</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574399659" title="Дата создания темы">22 Nov 2019 в 08:14</span>,
+                                                                    <a href="forums/obschie-voprosy-i-obsuzhdenija.5">Общие вопросы и обсуждения</a>
+                                                                                                                                            <span class="itemPageNav">
+                                                                                                                                                            <a href="threads/mir-glazami-mipopikera.1327259/page-5">5</a>
+                                                                                                                                                            <a href="threads/mir-glazami-mipopikera.1327259/page-6">6</a>
+                                                                                                                                                            <a href="threads/mir-glazami-mipopikera.1327259/page-7">7</a>
+                                                                                                                                                    </span>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>131</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>1569</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/hybra.574882/" class="avatar"><img src="/img/forum/avatars/s/574/574882.jpg?1562529557" width="50" height="50" alt="Hybra"></a>
+                                                                <dt><a href="members/hybra.574882/" class="username">Hybra</a></dt>
+                                                                <dd class="muted"><a href="posts/22923444/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439956">22 Nov 2019 в 19:25</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/snqzua.541531/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="SnqzUA">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/midas-i-ego-posledstvija.1327209/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        Мидас и его последствия                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/snqzua.541531/" style="color: #989899" class="username" title="Автор темы">SnqzUA</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574361773" title="Дата создания темы">21 Nov 2019 в 21:42</span>,
+                                                                    <a href="forums/obitel-nytja.175">Обитель нытья</a>
+                                                                                                                                            <span class="itemPageNav">
+                                                                                                                                                            <a href="threads/midas-i-ego-posledstvija.1327209/page-1">1</a>
+                                                                                                                                                            <a href="threads/midas-i-ego-posledstvija.1327209/page-2">2</a>
+                                                                                                                                                            <a href="threads/midas-i-ego-posledstvija.1327209/page-3">3</a>
+                                                                                                                                                    </span>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>53</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>544</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/faizome.763194/" class="avatar"><img src="/img/forum/avatars/s/763/763194.jpg?1545848781" width="50" height="50" alt="fAizome"></a>
+                                                                <dt><a href="members/faizome.763194/" class="username">fAizome</a></dt>
+                                                                <dd class="muted"><a href="posts/22923443/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439950">22 Nov 2019 в 19:25</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/franya372.199078/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="franya372">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/chto-s-fps.1327375/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        Что с фпс?                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/franya372.199078/" style="color: #989899" class="username" title="Автор темы">franya372</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574439886" title="Дата создания темы">22 Nov 2019 в 19:24</span>,
+                                                                    <a href="forums/cs-go-obschie-voprosy-i-obsuzhdenija.78">[CS:GO] Общие вопросы и обсуждения</a>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>1</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>5</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/lime_spb.327343/" class="avatar"><img src="/img/forum/avatars/s/327/327343.jpg?1547193956" width="50" height="50" alt="Lime_spb"></a>
+                                                                <dt><a href="members/lime_spb.327343/" class="username">Lime_spb</a></dt>
+                                                                <dd class="muted"><a href="posts/22923442/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439947">22 Nov 2019 в 19:25</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/jules-winf.779301/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="Jules Winf">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/iskljuchenie-v-odinochke.1327362/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        исключение в одиночке                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/jules-winf.779301/" style="color: #989899" class="username" title="Автор темы">Jules Winf</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574435685" title="Дата создания темы">22 Nov 2019 в 18:14</span>,
+                                                                    <a href="forums/taverna.6">Таверна</a>
+                                                                                                                                            <span class="itemPageNav">
+                                                                                                                                                            <a href="threads/iskljuchenie-v-odinochke.1327362/page-1">1</a>
+                                                                                                                                                            <a href="threads/iskljuchenie-v-odinochke.1327362/page-2">2</a>
+                                                                                                                                                    </span>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>22</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>152</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/jules-winf.779301/" class="avatar"><img src="/img/forum/avatars/s/779/779301.jpg?1573643085" width="50" height="50" alt="Jules Winf"></a>
+                                                                <dt><a href="members/jules-winf.779301/" class="username">Jules Winf</a></dt>
+                                                                <dd class="muted"><a href="posts/22923441/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439912">22 Nov 2019 в 19:25</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  sticky">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/splashzr.421220/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="Splashzr">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                                                                                            <div class="iconKey">
+                                                                    <span class="sticky" title="Прикрепленная">Прикрепленная</span>
+                                                                </div>
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/lost-ark-obt-tred.1318425/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        Lost Ark ОБТ Тред                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/splashzr.421220/" style="color: #989899" class="username" title="Автор темы">Splashzr</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1571251577" title="Дата создания темы">16 Oct 2019 в 21:46</span>,
+                                                                    <a href="forums/mmo-rpg-fps-rts.190">MMO (RPG, FPS, RTS)</a>
+                                                                                                                                            <span class="itemPageNav">
+                                                                                                                                                            <a href="threads/lost-ark-obt-tred.1318425/page-129">129</a>
+                                                                                                                                                            <a href="threads/lost-ark-obt-tred.1318425/page-130">130</a>
+                                                                                                                                                            <a href="threads/lost-ark-obt-tred.1318425/page-131">131</a>
+                                                                                                                                                    </span>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>2618</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>16298</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/r-l-p.697998/" class="avatar"><img src="/img/forum/avatars/s/697/697998.jpg?1533923838" width="50" height="50" alt="R.l.P"></a>
+                                                                <dt><a href="members/r-l-p.697998/" class="username">R.l.P</a></dt>
+                                                                <dd class="muted"><a href="posts/22923438/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439878">22 Nov 2019 в 19:24</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/onehellsin.766943/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="onehellsin">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/raskachka-ogra.1327306/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        Раскачка Огра                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/onehellsin.766943/" style="color: #989899" class="username" title="Автор темы">onehellsin</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574417793" title="Дата создания темы">22 Nov 2019 в 13:16</span>,
+                                                                    <a href="forums/geroi-obschie-obsuzhdenija.120">Герои: общие обсуждения</a>
+                                                                                                                                            <span class="itemPageNav">
+                                                                                                                                                            <a href="threads/raskachka-ogra.1327306/page-1">1</a>
+                                                                                                                                                            <a href="threads/raskachka-ogra.1327306/page-2">2</a>
+                                                                                                                                                            <a href="threads/raskachka-ogra.1327306/page-3">3</a>
+                                                                                                                                                    </span>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>44</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>428</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/russkie-ikony.741052/" class="avatar"><img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="Русские Иконы"></a>
+                                                                <dt><a href="members/russkie-ikony.741052/" class="username">Русские Иконы</a></dt>
+                                                                <dd class="muted"><a href="posts/22923437/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439874">22 Nov 2019 в 19:24</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/sienna1337.65198/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="SIENNA1337">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/resident-evil-3.1327364/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        RESIDENT EVIL 3                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/sienna1337.65198/" style="color: #989899" class="username" title="Автор темы">SIENNA1337</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574435752" title="Дата создания темы">22 Nov 2019 в 18:15</span>,
+                                                                    <a href="forums/drugie-igry.24">Другие игры</a>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>17</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>107</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/svinomanser.469645/" class="avatar"><img src="/img/forum/avatars/s/469/469645.jpg?1546949897" width="50" height="50" alt="Свиномансер"></a>
+                                                                <dt><a href="members/svinomanser.469645/" class="username">Свиномансер</a></dt>
+                                                                <dd class="muted"><a href="posts/22923436/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439872">22 Nov 2019 в 19:24</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/ellie-3.483781/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="ELLIE&lt;3">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/zalil-palcy-v-chernyj.1327358/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        Залил пальцы в черный                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/ellie-3.483781/" style="color: #989899" class="username" title="Автор темы">ELLIE&lt;3</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574434803" title="Дата создания темы">22 Nov 2019 в 18:00</span>,
+                                                                    <a href="forums/taverna.6">Таверна</a>
+                                                                                                                                            <span class="itemPageNav">
+                                                                                                                                                            <a href="threads/zalil-palcy-v-chernyj.1327358/page-1">1</a>
+                                                                                                                                                            <a href="threads/zalil-palcy-v-chernyj.1327358/page-2">2</a>
+                                                                                                                                                    </span>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>36</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>277</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/the-time.285503/" class="avatar"><img src="/img/forum/avatars/s/285/285503.jpg?1568751114" width="50" height="50" alt="The Time"></a>
+                                                                <dt><a href="members/the-time.285503/" class="username">The Time</a></dt>
+                                                                <dd class="muted"><a href="posts/22923433/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439850">22 Nov 2019 в 19:24</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  sticky">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/about.75097/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="About">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                                                                                            <div class="iconKey">
+                                                                    <span class="sticky" title="Прикрепленная">Прикрепленная</span>
+                                                                </div>
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/naruto-boruto-obschij-tred.1137444/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        Наруто/Боруто - общий тред.                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/about.75097/" style="color: #ff0033" class="username" title="Автор темы">About</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1512123126" title="Дата создания темы">01 Dec 2017 в 13:12</span>,
+                                                                    <a href="forums/anime-i-prochee.152">Аниме и прочее</a>
+                                                                                                                                            <span class="itemPageNav">
+                                                                                                                                                            <a href="threads/naruto-boruto-obschij-tred.1137444/page-2654">2654</a>
+                                                                                                                                                            <a href="threads/naruto-boruto-obschij-tred.1137444/page-2655">2655</a>
+                                                                                                                                                            <a href="threads/naruto-boruto-obschij-tred.1137444/page-2656">2656</a>
+                                                                                                                                                    </span>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>53112</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>246187</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/miha64.174073/" class="avatar"><img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="miha64"></a>
+                                                                <dt><a href="members/miha64.174073/" class="username">miha64</a></dt>
+                                                                <dd class="muted"><a href="posts/22923432/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439845">22 Nov 2019 в 19:24</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/qniceeee.148845/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="Qniceeee">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/dr-v-odinochke.1327349/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        др в одиночке                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/qniceeee.148845/" style="color: #989899" class="username" title="Автор темы">Qniceeee</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574432829" title="Дата создания темы">22 Nov 2019 в 17:27</span>,
+                                                                    <a href="forums/taverna.6">Таверна</a>
+                                                                                                                                            <span class="itemPageNav">
+                                                                                                                                                            <a href="threads/dr-v-odinochke.1327349/page-1">1</a>
+                                                                                                                                                            <a href="threads/dr-v-odinochke.1327349/page-2">2</a>
+                                                                                                                                                    </span>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>27</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>251</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/pendalf.789026/" class="avatar"><img src="/img/forum/avatars/s/789/789026.jpg?1574340773" width="50" height="50" alt="пендальф"></a>
+                                                                <dt><a href="members/pendalf.789026/" class="username">пендальф</a></dt>
+                                                                <dd class="muted"><a href="posts/22923430/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439825">22 Nov 2019 в 19:23</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/aleksey-merc.778667/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="Aleksey Merc">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/ne-obnovljaetsja-bixever.1327071/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        Не обновляется бихевер                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/aleksey-merc.778667/" style="color: #989899" class="username" title="Автор темы">Aleksey Merc</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574325508" title="Дата создания темы">21 Nov 2019 в 11:38</span>,
+                                                                    <a href="forums/obschie-voprosy-i-obsuzhdenija.5">Общие вопросы и обсуждения</a>
+                                                                                                                                            <span class="itemPageNav">
+                                                                                                                                                            <a href="threads/ne-obnovljaetsja-bixever.1327071/page-1">1</a>
+                                                                                                                                                            <a href="threads/ne-obnovljaetsja-bixever.1327071/page-2">2</a>
+                                                                                                                                                            <a href="threads/ne-obnovljaetsja-bixever.1327071/page-3">3</a>
+                                                                                                                                                    </span>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>52</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>288</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/overx.789105/" class="avatar"><img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="Overx"></a>
+                                                                <dt><a href="members/overx.789105/" class="username">Overx</a></dt>
+                                                                <dd class="muted"><a href="posts/22923428/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439815">22 Nov 2019 в 19:23</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/chelovek-obyknovennyj.779964/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="Человек Обыкновенный">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/ap-nuzhno-udalit-iz-rejtingovogo-podbora.1327363/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        АП нужно удалить из рейтингового подбора                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/chelovek-obyknovennyj.779964/" style="color: #989899" class="username" title="Автор темы">Человек Обыкновенный</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574435747" title="Дата создания темы">22 Nov 2019 в 18:15</span>,
+                                                                    <a href="forums/rejtingovaja-sistema-i-statistika.148">Рейтинговая система и статистика</a>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>19</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>134</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/gachatuber.784252/" class="avatar"><img src="/img/forum/avatars/s/784/784252.jpg?1574232662" width="50" height="50" alt="gachatuber"></a>
+                                                                <dt><a href="members/gachatuber.784252/" class="username">gachatuber</a></dt>
+                                                                <dd class="muted"><a href="posts/22923426/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439804">22 Nov 2019 в 19:23</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/denton.720692/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="denton">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/v-inste-ne-pokazyvaet-bolshe-chislo-lajkov.1327373/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        В инсте не показывает больше число лайков                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/denton.720692/" style="color: #989899" class="username" title="Автор темы">denton</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574439656" title="Дата создания темы">22 Nov 2019 в 19:20</span>,
+                                                                    <a href="forums/taverna.6">Таверна</a>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>3</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>16</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/kure534.748588/" class="avatar"><img src="/img/forum/avatars/s/748/748588.jpg?1554652333" width="50" height="50" alt="kure534"></a>
+                                                                <dt><a href="members/kure534.748588/" class="username">kure534</a></dt>
+                                                                <dd class="muted"><a href="posts/22923427/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439804">22 Nov 2019 в 19:23</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/kosras.170951/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="kosras">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/macbook-pro-monitor-ili-mac-mini-2-monitora-na-rabotu.1327374/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        Macbook pro + монитор или Mac Mini + 2 монитора на работу                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/kosras.170951/" style="color: #989899" class="username" title="Автор темы">kosras</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574439754" title="Дата создания темы">22 Nov 2019 в 19:22</span>,
+                                                                    <a href="forums/zhelezo-i-obsuzhdenija.166">Железо и обсуждения</a>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>0</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>5</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/kosras.170951/" class="avatar"><img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="kosras"></a>
+                                                                <dt><a href="members/kosras.170951/" class="username">kosras</a></dt>
+                                                                <dd class="muted"><a href="posts/22923422/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439754">22 Nov 2019 в 19:22</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  sticky">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/_esconts_.376393/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="_EsConts_">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                                                                                            <div class="iconKey">
+                                                                    <span class="sticky" title="Прикрепленная">Прикрепленная</span>
+                                                                </div>
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/obitel-nytja-i-obschee-obsuzhdenie.631486/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        Обитель нытья и общее обсуждение                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/_esconts_.376393/" style="color: #989899" class="username" title="Автор темы">_EsConts_</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1411938353" title="Дата создания темы">29 Sep 2014 в 01:05</span>,
+                                                                    <a href="forums/league-of-legends.27">League of Legends</a>
+                                                                                                                                            <span class="itemPageNav">
+                                                                                                                                                            <a href="threads/obitel-nytja-i-obschee-obsuzhdenie.631486/page-9045">9045</a>
+                                                                                                                                                            <a href="threads/obitel-nytja-i-obschee-obsuzhdenie.631486/page-9046">9046</a>
+                                                                                                                                                            <a href="threads/obitel-nytja-i-obschee-obsuzhdenie.631486/page-9047">9047</a>
+                                                                                                                                                    </span>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>180923</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>1408878</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/andrewkek1dech1mo.700527/" class="avatar"><img src="/img/forum/avatars/s/700/700527.jpg?1567451969" width="50" height="50" alt="andrewkek1Dech1mo"></a>
+                                                                <dt><a href="members/andrewkek1dech1mo.700527/" class="username">andrewkek1Dech1mo</a></dt>
+                                                                <dd class="muted"><a href="posts/22923419/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439698">22 Nov 2019 в 19:21</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/ten228.785716/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="Тень228">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/kak-obschatsja-s-animeshnikom.1327371/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        Как общаться с анимешником?                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/ten228.785716/" style="color: #989899" class="username" title="Автор темы">Тень228</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574438358" title="Дата создания темы">22 Nov 2019 в 18:59</span>,
+                                                                    <a href="forums/taverna.6">Таверна</a>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>14</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>135</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/mightysight.771996/" class="avatar"><img src="/img/forum/avatars/s/771/771996.jpg?1573636759" width="50" height="50" alt="MightySight"></a>
+                                                                <dt><a href="members/mightysight.771996/" class="username">MightySight</a></dt>
+                                                                <dd class="muted"><a href="posts/22923418/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439666">22 Nov 2019 в 19:21</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/v-tilte.748205/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="в тильте">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/razor-vs-morph-mid.1327356/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        razor vs morph mid                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/v-tilte.748205/" style="color: #989899" class="username" title="Автор темы">в тильте</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1574433802" title="Дата создания темы">22 Nov 2019 в 17:43</span>,
+                                                                    <a href="forums/geroi-obschie-obsuzhdenija.120">Герои: общие обсуждения</a>
+                                                                                                                                            <span class="itemPageNav">
+                                                                                                                                                            <a href="threads/razor-vs-morph-mid.1327356/page-1">1</a>
+                                                                                                                                                            <a href="threads/razor-vs-morph-mid.1327356/page-2">2</a>
+                                                                                                                                                    </span>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>22</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>133</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/ospa-etogo-vremeni.752791/" class="avatar"><img src="/img/forum/avatars/s/752/752791.jpg?1535771878" width="50" height="50" alt="оспа этого времени"></a>
+                                                                <dt><a href="members/ospa-etogo-vremeni.752791/" class="username">оспа этого времени</a></dt>
+                                                                <dd class="muted"><a href="posts/22923415/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439648">22 Nov 2019 в 19:20</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                            <li class="discussionListItem visible  ">
+
+                                                    <div class="listBlock posterAvatar">
+                                                        <span class="avatarContainer">
+                                                            <a href="members/ichigo_kurosaki.642875/" class="avatar" data-avatarhtml="true">
+                                                                <img src="/img/forum/avatars/default/avatar_s.png" width="50" height="50" alt="Ichigo_Kurosaki">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+
+                                                    <div class="listBlock main">
+
+                                                        <div class="titleText">
+
+                                                            
+                                                            
+                                                            <h3 class="title">
+                                                                <a href="threads/h-collectors-cache-immortal-2019-skidki-w-vashi-predlozhenija.1287036/">
+                                                                                                                                            <span style="font-weight: 700;">
+                                                                                                                                        [H] Collector's Cache/Immortal 2019 скидки [W] Ваши предложения                                                                                                                                            </span>
+                                                                                                                                                                                                        </a>
+                                                            </h3>
+
+                                                            <div class="secondRow">
+                                                                <div class="posterDate muted">
+                                                                    <a href="members/ichigo_kurosaki.642875/" style="color: #989899" class="username" title="Автор темы">Ichigo_Kurosaki</a>
+                                                                    ,
+                                                                    <span class="date-time" data-time="1560602316" title="Дата создания темы">15 Jun 2019 в 15:38</span>,
+                                                                    <a href="forums/obmen-predmetami-i-giftami.86">Обмен предметами и гифтами</a>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="listBlock stats pairsJustified">
+                                                        <dl class="major"><dt>Сообщений:</dt> <dd>10</dd></dl>
+                                                        <dl class="minor"><dt>Просмотров:</dt> <dd>650</dd></dl>
+                                                    </div>
+
+                                                    <div class="listBlock lastPost">
+
+                                                                                                                    <dl class="lastPostInfo">
+                                                                <a href="members/ichigo_kurosaki.642875/" class="avatar"><img src="/img/forum/avatars/s/642/642875.jpg?1563639952" width="50" height="50" alt="Ichigo_Kurosaki"></a>
+                                                                <dt><a href="members/ichigo_kurosaki.642875/" class="username">Ichigo_Kurosaki</a></dt>
+                                                                <dd class="muted"><a href="posts/22923408/" title="Перейти к последнему сообщению" class="dateTime date-time" data-time="1574439585">22 Nov 2019 в 19:19</a></dd>
+                                                            </dl>
+                                                        
+                                                    </div>
+
+                                                </li>
+
+                                                                                    
+                                    </ul>
+
+                                </div>
+                            </div>
+                        
+                        <div class="margin-top-10">
+                                                            <ul data-pages="40321" class="pagination"><li class="current active"><a    data-page="1" href="/forum/new/posts/page-1">1</a></li><li class=""><a    data-page="2" href="/forum/new/posts/page-2">2</a></li><li class=""><a    data-page="3" href="/forum/new/posts/page-3">3</a></li><li data-url="/forum/new/posts/" style="cursor: pointer; !important;" data-page-chooser="1"><a>...</a></li><li><a    data-page="40321" href="/forum/new/posts/page-40321">40321</a></li><li class=""><a    data-page="2" data-url="/forum/new/posts/" href="/forum/new/posts/page-2">Вперед &gt;</a></li></ul>                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="breadcrumbs-container-bottom">
+        <nav>
+    <fieldset class="breadcrumb">
+        <span class="crumbs">
+            <span class="crust homeCrumb " itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+                <a href="/forum/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Форум</span></a>
+                <span class="arrow"><span>&gt;</span></span>
+            </span>
+
+                                                <span class="crust selectedTabCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+                        <a href="new/posts/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Последние сообщения</span></a>
+                        <span class="arrow"><span>&gt;</span></span>
+                    </span>
+                                    </span>
+
+    </fieldset>
+</nav>
+    </div>
+
+</div>
+</div>
+<script src="/js/app.min.js?248"></script><script src="/js/functions.min.js?248"></script><script src="/js/all.min.js?248"></script><script src="/js/comments.min.js?248"></script>
+<footer>
+<div class="wrap">
+
+	
+	<ul class="second-nav">
+		<li><a href="/questions/">Обратная связь</a></li>
+		<li><a href="/vacancy/">Вакансии</a></li>
+		<li><a href="/adv/">Реклама</a></li>
+		<li><a href="/contacts/">Контакты</a></li>
+		<li><a href="/privacy/">Политика конфиденциальности</a></li>
+	</ul>
+		<div class="copyright">&copy; 2010-2019 Все права защищены</div>
+	<div class="counter"><!--LiveInternet counter--><script type="text/javascript">
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t12.3;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+</script><!--/LiveInternet-->
+	</div>
+	<div class="ages">18+</div>
+	<div class="stormwall"><a href="//stormwall.pro/services/website_protection.php" target="_blank" title="Защита от DDoS атак | StormWall">Защита сайта от DDoS атак - <img src="/img/stormwall.png?3"> StormWall</a></div>
+</div>
+
+</footer>
+
+
+
+
+<div id="button-move-up"><i class="fa fa-angle-double-up fa-2x"></i></div>
+
+
+<div data-page-current-section="forum/new/posts"></div>
+<div>
+	<div id="page-current-section" data-value="forum"></div>
+	<div id="page-current-address" data-value="forum/new/posts"></div>
+</div>
+
+
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "1931440", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = "https://top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div>
+<img src="https://top-fwz1.mail.ru/counter?id=1931440;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(22621522, "init", {
+		clickmap:true,
+		trackLinks:true,
+		accurateTrackBounce:true,
+		webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/22621522" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-15834660-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-15834660-3');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+<script type="text/javascript">
+    const TOKEN = 'token';
+    // TODO: Move to config Class
+    if (typeof(Utils) !== 'undefined') {
+        Utils.privilegesCache = [];
+        Utils.captcha_type = "google";
+        Utils.isLogged = false;
+        Utils.isBanned = false;
+        Utils.timezone = "Europe/Moscow";
+        Utils.user_id = parseInt("");
+        Utils.prefix = "forum/";
+        Utils.username = "";
+        Utils.username_safe = "";
+        Utils.user_link = "";
+        Utils.nick_color = "";
+        Utils.avatar_small = "";
+        Utils.avatar_timestamp = "";
+        Utils.is_online = parseInt("");
+
+        Utils.server_name = "dota2.ru";
+
+        Utils.isSuperUser = false;
+        Utils.isAdmin = false;
+        Utils.isSuperModerator = false;
+        Utils.isGlobalModerator = false;
+
+        Utils.config.chat.server = "dota2.ru";
+        Utils.config.chat.port = parseInt("7020");
+        Utils.config.chatUpdateInterval = parseInt("10000");
+        Utils.config.chatIdleStartInterval = parseInt("300");
+        Utils.config.chatIdleInterval = parseInt("30000");
+        Utils.config.chatIdleIntervalLimit = parseInt("600");
+
+        Utils.config.spamRestrictPosts = parseInt("100");
+
+        Utils.config.post.charLimit = 100000;
+        Utils.config.post.limitPostsAfterLoad = 2;
+        Utils.config.post.smilesLimit = 100;
+        Utils.config.post.imgLimit = 300;
+        Utils.config.post.iframeLimit = 20;
+
+        Utils.config.profile.signatureCharLimit = 500;
+        Utils.config.profile.statusCharLimit = 110;
+
+        Utils.config.topic.createTopicThrottleTime = 180;
+
+        $(document).ready(function () {
+                                            });
+    } else {
+        console.log('[app] Utils no loaded');
+    }
+
+</script>
+
+<div id="token" data-value="53c0a8fa4c61000fac3e4345d53d1ccb"></div>
+
+</div> <!-- Full -->
+
+<div class="title-tooltipe"></div>
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "/forum/",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "/forum/search/search?keywords={search_keywords}",
+		"query-input": "required name=search_keywords"
+	}
+}
+</script>
+</body>
+</html>

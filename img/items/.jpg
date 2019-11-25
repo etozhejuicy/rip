@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>Страница не найдена. Ошибка 404</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+
+<body>
+
+<div style="text-align: center; font-size: 22px; margin: 100px 0 0;">Извините, страница не найдена. Ошибка 404.<br /> <a href="/">Вернуться на главную страницу</a></div>
+
+</body>
+</html>
