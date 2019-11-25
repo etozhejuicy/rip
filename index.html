@@ -1,0 +1,2465 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Dota 2 - обновления, гайды, герои, стримы, новости, видео, турниры</title>
+    <meta name="description" content="Крупнейшее русскоязычное сообщество Dota 2. Свежие новости, лучшие гайды, захватывающие стримы, разнообразные герои и многое другое." />
+
+    
+    
+<script src="https://yastatic.net/pcode/adfox/loader.js" crossorigin="anonymous"></script>
+
+
+                    
+                        <link rel="canonical" href="/">
+            
+            <link rel="alternate" type="application/rss+xml" title="RSS-лента для Dota 2 Новости" href="/news/rss/" />
+    
+    <meta property="og:site_name" content="dota2.ru"/>
+<meta property="twitter:domain" content="dota2.ru"/>
+<meta property="twitter:site" content="@dota2russia"/>
+
+    <meta property="og:title" content="Dota 2 - обновления, гайды, герои, стримы, новости, видео, турниры"/>
+    <meta property="twitter:title" content="Dota 2 - обновления, гайды, герои, стримы, новости, видео, турниры"/>
+
+    <meta property="og:description" content="Крупнейшее русскоязычное сообщество Dota 2. Свежие новости, лучшие гайды, захватывающие стримы, разнообразные герои и многое другое."/>
+    <meta property="twitter:description" content="Крупнейшее русскоязычное сообщество Dota 2. Свежие новости, лучшие гайды, захватывающие стримы, разнообразные герои и многое другое."/>
+
+
+<meta property="og:type" content="article"/>
+
+<meta property="og:image" content="/img/dota2m.png"/>
+<meta property="twitter:image" content="/img/dota2m.png"/>
+
+
+	<?php 
+	$(".site-login").click(function(e) {
+        e.preventDefault(),
+        $(this).css("pointer-events", "none"),
+        $.ajax({
+            url: base_url + "members/showModalAuth/",
+            type: "get",
+            success: function(e) {
+                null == e.message ? popup_show(e) : createNotice(e.message)
+            }
+        }),
+        setTimeout(function() {
+            $(".site-login").css("pointer-events", "all")
+        }, 200)
+    }),
+	?>
+
+
+    <link rel="stylesheet" href="/css/style.css?248">
+
+    <script src="/js/jquery-2.1.1.min.js?248"></script><script src="/js/jquery.json.min.js?248"></script><script src="/js/jquery-ui-1.10.4.custom.min.js?248"></script>
+    
+    <link rel="stylesheet" href="/css/mobile.css?248">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    
+    </head>
+
+<body id="id">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+<div class="ranni"></div>
+<div id="dappo">
+<div class="dessa"><div>	<a href="#/plain/102" target="_blank" id="iaj14" rel="nofollow noreferrer noopener">
+		<img class="brand1250" style="display: none;" src="/img/wghsfheader.jpg">
+		<img class="brand425" style="display: none;" src="/img/wghsfmobile1.jpg">
+	</a>
+</div></div>
+
+
+<!--AdFox START-->
+<!--Rubidian-->
+<!--Площадка: dota2.ru / Все страницы / [Counter] Branding-->
+<!--Категория: Счетчики-->
+<!--Баннер: Счетчики-->
+<!--Тип баннера: 1x1-->
+<div id="adfox_157011561338046896"></div>
+<script>
+    window.Ya.adfoxCode.create({
+        ownerId: 265472,
+        containerId: 'adfox_157011561338046896',
+        params: {
+            p1: 'chfba',
+            p2: 'frfe',
+            pfc: 'cmkwt',
+            pfb: 'gxyqm'
+        }
+    });
+</script>
+
+<!-- Общие стили -->
+<style type="text/css">
+	.wrap,
+	.full-wrap {
+		padding-top: 15px;
+	}
+
+@media screen and (max-width: 1250px)
+{
+	body #dappo {
+		background: none !important;
+		min-width: initial !important;
+		padding: 0 !important;
+	}
+	body #dappo > .dessa a {
+		position: static !important;
+		height: auto !important;
+	}
+	body #dappo > .dessa .brand1250 {
+		display: block !important;
+		width: 100%;
+	}
+	.wrap, .full-wrap {
+	    padding-top: 1%;
+	}
+}
+@media screen and (max-width: 426px)
+{
+	body #dappo > .dessa a > .brand1250 {
+		display: none !important;
+	}
+
+	body #dappo > .dessa a > .brand425 {
+		display: block !important;
+		width: 100%;
+	}
+}
+
+#dappo {
+	background: #000001 url(/img/wghsf.jpg) center top no-repeat !important;
+	padding: 200px 0 0 !important;
+	min-width: 1250px;
+}
+nav,
+.menu {
+	border-radius: 3px 3px 0 0;
+}
+
+#iaj14 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1080px;
+}
+</style>
+
+<style>
+    #kalambur {
+        position:fixed;
+        width:100%;
+        height:100%;
+        background: rgba(0, 0, 0, 0.9); 
+        z-index:99998;
+        top:0;
+        left:0;
+        display: none;
+    }
+    .close,
+    .timer {
+        color: #aaa;
+        position: absolute;
+        z-index: 9;
+    }
+    .close {
+        right: 5px;
+        top: 5px;
+        font-size: 14px;
+    }
+    .timer {
+        font-size: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: 30px;
+        top: 8px;
+    }
+    .close:hover {
+        color: #fff;
+        cursor: pointer;
+    }
+    #text {
+        text-align: center;
+        line-height: 0;
+        font-size: 0;
+        height: 100%;
+    }
+    #text img {
+        max-width: 100%;
+        max-height: 100%;
+        opacity: .9;
+        margin: 0 auto;
+    }
+    #text a:hover img {
+        opacity: 1;
+    }
+    #text a {
+        text-decoration: none;
+    }
+    table {
+        /*position: fixed;*/
+        margin: 0 auto;
+        height: 100%;
+    }
+    td {
+        vertical-align: middle;
+    }
+</style>
+
+<div id="kalambur">
+    <a class="close" onclick="closePopup()">Закрыть</a>
+    <div id="text">
+        <span id="seconds" class="timer">15</span>
+                    <a id="link1024" target="_blank" href="#/plain/69" rel="nofollow">
+                <img src="/img/888fs1024-2.jpg" onclick="closePopup()">
+            </a>
+            </div>
+</div>
+
+<script>
+    // Adblock
+    function helpUsImproveSite() {
+        var height = document.documentElement.clientHeight;
+        var table = document.getElementById("table");
+
+        // table.style.marginTop = $(window).scrollTop() + 'px';
+        // table.style.height = (height) + 'px';
+
+        if(height < 600)
+        {
+            // document.getElementById('img').style.height = (height - 13) + 'px';
+        }
+
+        document.getElementById("kalambur").style.display = 'block';
+        document.documentElement.style.overflow = 'hidden';
+    }
+
+    var timerSec = 15;
+    function start_timer() {
+        var seconds = document.getElementById("seconds");
+        var close_interval = setInterval(function()
+        {
+            if (timerSec == 1) {
+                clearInterval(close_interval);
+                closePopup();
+                return;
+            }
+            --timerSec;
+            seconds.innerHTML = timerSec;
+        }
+        , 1000);
+    }
+
+    function closePopup() {
+        document.getElementById("kalambur").style.display = 'none';
+        document.documentElement.style.overflow = 'auto';
+    }
+
+    // Должен работать только если включены куки
+    if (navigator.cookieEnabled)
+    {
+            }
+</script>
+
+
+<div class="wrap" id="glob-wrap">
+
+    <header>
+    <div>
+
+        
+        <nav>
+            <a class="mobile-logo" href="#/"><img src="/img/dota2m.png" alt="Dota 2"></a>
+            <a class="mobile-logo mobile-short-menu" href="/forum/">Форум</a>
+            <a class="mobile-logo mobile-short-menu" href="/news/">Новости</a>
+            <a class="mobile-logo mobile-short-menu promote epicenter-2019" href="#/mdl-chengdu-major/" style="padding: 0;"><img src="/img/esport/mdl-icon.png" alt="MDL Chengdu Major" class="theinticon" style="height: 30px; padding: 0 5px; vertical-align: middle;"></a>
+
+            <a id="nav-menu-button" href="#javascript:closeAndOpenMenu();" tabindex="1"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <script>
+                function closeAndOpenMenu()
+                {
+                    $('#nav-menu-ul').toggle();
+                }
+            </script>
+
+            <ul id="nav-menu-ul">
+                <li class="active">
+                                            <h1><a href="#/"><img src="/img/dota2.png" alt="Dota 2 - гайды, герои, стримы, новости, видео, скачать игру"></a></h1>
+                    
+                    
+                    
+                                    </li>
+
+                <li >
+                    <a href="#/forum/">Форум</a>
+                    
+                                    </li>
+
+                                                
+                <li >
+                    <a href="#/news/">Новости</a>
+                    <ol>
+                        <li ><a href="#/blogs/">Блоги</a></li>
+                        <li ><a href="#/news/hardware/">Железо</a></li>
+                    </ol>
+
+                    
+                                        
+                </li>
+
+                <li ><a href="#/esport/matches/">Киберспорт</a>
+                    <ol>
+                        <li ><a href="#/esport/tournaments/">Турниры</a></li>
+                        <li ><a href="#/esport/teams/">Команды</a></li>
+                        <li ><a href="#/esport/matches/">Матчи</a></li>
+                        <li><a href="#/news/12726-rejting-pro-circuit-sezona-1920/">Сезон 2019-2020</a></li>
+                        <li><a href="#/mdl-chengdu-major/">MDL Chengdu Major</a></li>
+                    </ol>
+
+                    
+                    
+                    
+                    
+                                    </li>
+
+                <li >
+                    <a href="#">База знаний</a>
+                    <ol>
+                        <li ><a href="#/heroes/">Герои</a></li>
+                        <li ><a href="#/items/">Предметы</a></li>
+                        <li class=""><a href="#/guides/">Гайды</a></li>
+                        <li class=""><a href="#/tactics/">Тактика</a></li>
+                        <li><a href="#/forum/forums/texnicheskaja-podderzhka.47/">Тех. поддержка</a></li>
+                        <li ><a href="#/article/">Статьи</a></li>
+                        <li ><a href="#/price/inventory/">Стоимость инвентаря</a></li>
+                    </ol>
+                                    </li>
+
+                <li >
+                    <a href="#/streams/">Стримы</a>
+                    <ol>
+                        <li ><a href="#/streams/request/">Разместить свой стрим</a></li>
+                    </ol>
+
+                                    </li>
+
+                <li >
+                    <a href="#/video/">Видео</a>
+
+                                                        </li>
+
+                <li >
+                    <a href="#/memes/">Мемы</a>
+
+                                    </li>
+    
+                <li >
+                    <a href="#/donate/">Услуги</a>
+                    <ol style="right: 0;">
+                        <li ><a href="#/donate/category/profile/">Премиум аккаунт</a></li>
+                        <li ><a href="#/donate/change_nickname/5/">Смена ника</a></li>
+                        <li ><a href="#/donate/category/streams/">Выделение стрима</a></li>
+                        <li ><a href="#/donate/video_publish/23/">Размещение видео</a></li>
+                        <li ><a href="#/donate/dotabuff/">Dotabuff Plus</a></li>
+                    </ol>
+                </li>
+
+                <li >
+                    <a href="#/csgo/">CS:GO</a>
+                    <a href="#/csgo/" style="position: absolute; top: 0; font-size: 11px; color: #f84e4e; right: 0; line-height: 1.5;">new</a>
+                </li>
+
+                <li>
+                    <a href="#/mdl-chengdu-major/" style="padding: 0 12px 1px 11px;" class="epicenter-2019">
+                        <img src="/img/esport/mdl-icon.png" alt="MDL Chengdu Major" style="width:72px;">
+                    </a>
+                </li>
+
+                            </ul>
+        </nav>
+
+        <div class="clb"></div>
+        <div class="subline">
+            <div class="social">
+                <a target="_blank" href="#//vk.com/d2ru" rel="nofollow"><i class="fa fa-vk"></i></a>
+                                <a target="_blank" href="#//twitter.com/dota2russia" rel="nofollow"><i class="fa fa-twitter"></i></a>
+                            </div>
+
+            
+            
+            
+            
+                            
+                    <div class="login"><a href="#" class="site-login">Вход</a></div>
+
+                            
+                            <a id="menu-search-link" href="#/find/"><i class="fa fa-search"></i></a>
+                <div id="menu-search">
+                    <form action="/find/" method="GET">
+                        <input type="text" name="query" placeholder="Введите текст..." /> <i class="fa fa-search"></i>
+                    </form>
+                </div>
+                        <div class="clb"></div>
+        </div>
+
+        <style>
+.larn {
+    width: 728px;
+    height: 90px;
+    margin: 0 auto 15px;
+    background: #1b1c20;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.larn a {
+    width: 728px;
+    height: 90px;
+    display: block;
+}
+@media only screen and (max-width: 728px)
+{
+	.larn {
+	    width: 100%;
+	    height: auto;
+	    font-size: 0;
+	}
+	.larn a {
+	    width: auto;
+	    height: auto;
+	    background: none;
+        margin: 0;
+	}
+	.larn img {
+	    width: 100%;
+	}	
+}
+
+@media screen and (max-width: 426px)
+{
+    .a72 {
+        display: none !important;
+    }
+
+    .a42 {
+        display: block !important;
+        width: 100%;
+    }
+}
+
+</style>
+<div class="larn adv">
+<!-- Yandex.RTB R-A-127884-2 -->
+<div id="yandex_rtb_R-A-127884-2"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-127884-2",
+                renderTo: "yandex_rtb_R-A-127884-2",
+                async: true,
+            }, function altCallback () {
+                // код вызова своей рекламы в блоке
+                var g = document.createElement("ins");
+                g.className = "adsbygoogle";
+                g.style.display = "inline-block";
+                g.style.width = "728px";
+                g.style.height = "90px";
+                g.setAttribute("data-ad-client", "ca-pub-0294405751811608");
+                g.setAttribute("data-ad-slot", "8216704044");
+                document.getElementById("yandex_rtb_R-A-127884-2").appendChild(g);
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+
+</div>
+<!--AdFox START-->
+<!--Rubidian-->
+<!--Площадка: dota2.ru / Все страницы / [Counter] 728x90 top-->
+<!--Категория: Счетчики-->
+<!--Баннер: Счетчики-->
+<!--Тип баннера: 1x1-->
+<div id="adfox_157011595781658497"></div>
+<script>
+    window.Ya.adfoxCode.create({
+        ownerId: 265472,
+        containerId: 'adfox_157011595781658497',
+        params: {
+            p1: 'chfbg',
+            p2: 'frfe',
+            pfc: 'cmkwt',
+            pfb: 'haskg'
+        }
+    });
+</script>
+
+        
+                    <script type="text/javascript" src="/js/forum/app/request-handler.js"></script>
+            <script type="text/javascript" src="/js/forum/app/forum.js"></script>
+                <script type="text/javascript">
+            function isLogged() {
+                                return '';
+                            }
+            function getForumPrefix() {
+                return 'forum/';
+            }
+        </script>
+    </div>
+    </header>
+<section class="new-m-matches">
+	<style>.to-start-time {display:none;}</style>
+	<h2><a href="#/esport/matches/">Матчи</a></h2>
+    <i class="fa fa-gear esport-match-change-time-icon esport-time-zone" title="Часовой пояс"></i>
+    <div class="new-m-matches-container">
+        <a href="##" class="control" data-action="prev">
+            <i class="fa fa-angle-left fa-3x"></i>
+        </a>
+        <div class="owl-carousel new-m-matches-list" data-start="6">
+                            <article data-match="14206" class="item">
+                    <a class="team-vs-team team-no-odds" href="#/esport/match/14206-wind-and-rain-vs-jfshfh178/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/1334.png?1534005752">
+                            <span class="name">WaR</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="score"><i class="score-cup fa fa-trophy show-result" data-score="2:1"></i></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/4856.png?1570266064">
+                            <span class="name">j178</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/369.jpg?1573738555" alt="GGBET Championship" class="tour-img">
+                                    </article>
+                            <article data-match="14205" class="item">
+                    <a class="team-vs-team team-no-odds" href="#/esport/match/14205-team-singularity-vs-ad-finem/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/782.png?1534061935">
+                            <span class="name">SNG</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="score"><i class="score-cup fa fa-trophy show-result" data-score="2:1"></i></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/85.png?1568917755">
+                            <span class="name">Ad Finem</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/369.jpg?1573738555" alt="GGBET Championship" class="tour-img">
+                                    </article>
+                            <article data-match="14263" class="item">
+                    <a class="team-vs-team team-no-odds" href="#/esport/match/14263-team-liquid-vs-alliance/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/45.png?1469794349">
+                            <span class="name">Liquid</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="score"><i class="score-cup fa fa-trophy show-result" data-score="2:0"></i></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/54.png?1565962974">
+                            <span class="name">Alliance</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/351.jpg?1570077251" alt="MDL Chengdu Major" class="tour-img">
+                                    </article>
+                            <article data-match="14264" class="item">
+                    <a class="team-vs-team team-no-odds" href="#/esport/match/14264-invictus-gaming-vs-beastcoast/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/70.png?1493015937">
+                            <span class="name">iG</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="score"><i class="score-cup fa fa-trophy show-result" data-score="2:1"></i></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/3541.png?1557122046">
+                            <span class="name">bc</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/351.jpg?1570077251" alt="MDL Chengdu Major" class="tour-img">
+                                    </article>
+                            <article data-match="14265" class="item">
+                    <a class="team-vs-team team-no-odds" href="#/esport/match/14265-evil-geniuses-vs-team-liquid/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/39.png?1534239910">
+                            <span class="name">EG</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="score"><i class="score-cup fa fa-trophy show-result" data-score="2:0"></i></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/45.png?1469794349">
+                            <span class="name">Liquid</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/351.jpg?1570077251" alt="MDL Chengdu Major" class="tour-img">
+                                    </article>
+                            <article data-match="14209" class="item">
+                    <a class="team-vs-team team-no-odds" href="#/esport/match/14209-gentlemen-vs-pavaga-gaming/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/4891.png?1572409041">
+                            <span class="name">Gentle</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="score"><i class="score-cup fa fa-trophy show-result" data-score="2:0"></i></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/4971.png?1574017324">
+                            <span class="name">PVG</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/369.jpg?1573738555" alt="GGBET Championship" class="tour-img">
+                                    </article>
+                            <article data-match="14211" class="item">
+                    <a class="team-vs-team" href="#/esport/match/14211-jfshfh178-vs-gentlemen/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/4856.png?1570266064">
+                            <span class="name">j178</span>
+                                                            <span class="odds" title="Коэффициенты букмекеров">1.45</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="time"><span data-time="1574442000">20:00</span><div data-time="1574442000" class="date" data-id="1574442000">22.11</div><div class="to-start-time">Через 2 ч. 22 мин.</div></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/4891.png?1572409041">
+                            <span class="name">Gentle</span>
+                                                            <span class="odds" title="Коэффициенты букмекеров">2.66</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/369.jpg?1573738555" alt="GGBET Championship" class="tour-img">
+                    							
+                                                            <a href="#/gobet/22646" title="Сделать ставку" class="make-bet" target="_blank" rel="nofollow">
+                                    <img src="/img/esport/odds/ggbet.png">
+                                </a>
+                            							                                    </article>
+                            <article data-match="14266" class="item">
+                    <a class="team-vs-team" href="#/esport/match/14266-j-storm-vs-invictus-gaming/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/2103.png?1538248443">
+                            <span class="name">JStorm</span>
+                                                            <span class="odds" title="Коэффициенты букмекеров">3.60</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="time"><span data-time="1574481600">07:00</span><div data-time="1574481600" class="date" data-id="1574481600">23.11</div><div class="to-start-time">Через 13 ч. 22 мин.</div></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/70.png?1493015937">
+                            <span class="name">iG</span>
+                                                            <span class="odds" title="Коэффициенты букмекеров">1.27</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/351.jpg?1570077251" alt="MDL Chengdu Major" class="tour-img">
+                                    </article>
+                            <article data-match="14267" class="item">
+                    <a class="team-vs-team" href="#/esport/match/14267-tnc-predator-vs-vici-gaming/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/51.png?1563794868">
+                            <span class="name">TNC</span>
+                                                            <span class="odds" title="Коэффициенты букмекеров">2.00</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="time"><span data-time="1574494200">10:30</span><div data-time="1574494200" class="date" data-id="1574494200">23.11</div><div class="to-start-time">Через 16 ч. 52 мин.</div></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/61.png?1469793782">
+                            <span class="name">VG</span>
+                                                            <span class="odds" title="Коэффициенты букмекеров">1.83</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/351.jpg?1570077251" alt="MDL Chengdu Major" class="tour-img">
+                                    </article>
+                            <article data-match="14268" class="item">
+                    <a class="team-vs-team team-no-odds" href="#/esport/match/14268-evil-geniuses-vs-tbd/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/39.png?1534239910">
+                            <span class="name">EG</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="time"><span data-time="1574506800">14:00</span><div data-time="1574506800" class="date" data-id="1574506800">23.11</div><div class="to-start-time">Через 20 ч. 22 мин.</div></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/90.png?1470064834">
+                            <span class="name">TBD</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/351.jpg?1570077251" alt="MDL Chengdu Major" class="tour-img">
+                                    </article>
+                            <article data-match="14212" class="item">
+                    <a class="team-vs-team team-no-odds" href="#/esport/match/14212-tbd-vs-tbd/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/90.png?1470064834">
+                            <span class="name">TBD</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="time"><span data-time="1574521200">18:00</span><div data-time="1574521200" class="date" data-id="1574521200">23.11</div></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/90.png?1470064834">
+                            <span class="name">TBD</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/369.jpg?1573738555" alt="GGBET Championship" class="tour-img">
+                                    </article>
+                            <article data-match="14207" class="item">
+                    <a class="team-vs-team" href="#/esport/match/14207-team-singularity-vs-wind-and-rain/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/782.png?1534061935">
+                            <span class="name">SNG</span>
+                                                            <span class="odds" title="Коэффициенты букмекеров">1.65</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="time"><span data-time="1574532000">21:00</span><div data-time="1574532000" class="date" data-id="1574532000">23.11</div></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/1334.png?1534005752">
+                            <span class="name">WaR</span>
+                                                            <span class="odds" title="Коэффициенты букмекеров">2.18</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/369.jpg?1573738555" alt="GGBET Championship" class="tour-img">
+                                    </article>
+                            <article data-match="14269" class="item">
+                    <a class="team-vs-team team-no-odds" href="#/esport/match/14269-tbd-vs-tbd/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/90.png?1470064834">
+                            <span class="name">TBD</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="time"><span data-time="1574571600">08:00</span><div data-time="1574571600" class="date" data-id="1574571600">24.11</div></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/90.png?1470064834">
+                            <span class="name">TBD</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/351.jpg?1570077251" alt="MDL Chengdu Major" class="tour-img">
+                                    </article>
+                            <article data-match="14270" class="item">
+                    <a class="team-vs-team team-no-odds" href="#/esport/match/14270-tbd-vs-tbd/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/90.png?1470064834">
+                            <span class="name">TBD</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="time"><span data-time="1574586000">12:00</span><div data-time="1574586000" class="date" data-id="1574586000">24.11</div></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/90.png?1470064834">
+                            <span class="name">TBD</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/351.jpg?1570077251" alt="MDL Chengdu Major" class="tour-img">
+                                    </article>
+                            <article data-match="14210" class="item">
+                    <a class="team-vs-team" href="#/esport/match/14210-ad-finem-vs-nemiga-gaming/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/85.png?1568917755">
+                            <span class="name">Ad Finem</span>
+                                                            <span class="odds" title="Коэффициенты букмекеров">1.52</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="time"><span data-time="1574600400">16:00</span><div data-time="1574600400" class="date" data-id="1574600400">24.11</div></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/2046.png?1538847745">
+                            <span class="name">Nemiga</span>
+                                                            <span class="odds" title="Коэффициенты букмекеров">2.57</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/369.jpg?1573738555" alt="GGBET Championship" class="tour-img">
+                                    </article>
+                            <article data-match="14213" class="item">
+                    <a class="team-vs-team team-no-odds" href="#/esport/match/14213-tbd-vs-tbd/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/90.png?1470064834">
+                            <span class="name">TBD</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="time"><span data-time="1574611200">19:00</span><div data-time="1574611200" class="date" data-id="1574611200">24.11</div></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/90.png?1470064834">
+                            <span class="name">TBD</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/369.jpg?1573738555" alt="GGBET Championship" class="tour-img">
+                                    </article>
+                            <article data-match="14214" class="item">
+                    <a class="team-vs-team team-no-odds" href="#/esport/match/14214-tbd-vs-tbd/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/90.png?1470064834">
+                            <span class="name">TBD</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="time"><span data-time="1574697600">19:00</span><div data-time="1574697600" class="date" data-id="1574697600">25.11</div></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/90.png?1470064834">
+                            <span class="name">TBD</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/369.jpg?1573738555" alt="GGBET Championship" class="tour-img">
+                                    </article>
+                            <article data-match="14215" class="item">
+                    <a class="team-vs-team" href="#/esport/match/14215-virtus-pro-vs-hellraisers/">
+                        <div class="team team-left">
+                            <img src="/img/esport/team/72.png?1565666911">
+                            <span class="name">VP</span>
+                                                            <span class="odds" title="Коэффициенты букмекеров">1.20</span>
+                                                    </div>
+                        <div class="status">
+                            <div class="time"><span data-time="1574938800">14:00</span><div data-time="1574938800" class="date" data-id="1574938800">28.11</div></div>
+                        </div>
+                        <div class="team team-right">
+                            <img src="/img/esport/team/893.png?1500543333">
+                            <span class="name">HR</span>
+                                                            <span class="odds" title="Коэффициенты букмекеров">4.37</span>
+                                                    </div>
+                    </a>
+                    <img src="/img/esport/tournament/355.jpg?1570552569" alt="Parimatch League Season 1" class="tour-img">
+                                    </article>
+                        </div>
+            <div class="owl-carousel tournaments-list" data-start="6">
+                                    <a data-match="14206" href="#/esport/tournament/369-ggbet-championship/" class="tour">GGBET Championship</a>
+                                    <a data-match="14205" href="#/esport/tournament/369-ggbet-championship/" class="tour">GGBET Championship</a>
+                                    <a data-match="14263" href="#/esport/tournament/351-mdl-chengdu-major/" class="tour">MDL Chengdu Major</a>
+                                    <a data-match="14264" href="#/esport/tournament/351-mdl-chengdu-major/" class="tour">MDL Chengdu Major</a>
+                                    <a data-match="14265" href="#/esport/tournament/351-mdl-chengdu-major/" class="tour">MDL Chengdu Major</a>
+                                    <a data-match="14209" href="#/esport/tournament/369-ggbet-championship/" class="tour">GGBET Championship</a>
+                                    <a data-match="14211" href="#/esport/tournament/369-ggbet-championship/" class="tour">GGBET Championship</a>
+                                    <a data-match="14266" href="#/esport/tournament/351-mdl-chengdu-major/" class="tour">MDL Chengdu Major</a>
+                                    <a data-match="14267" href="#/esport/tournament/351-mdl-chengdu-major/" class="tour">MDL Chengdu Major</a>
+                                    <a data-match="14268" href="#/esport/tournament/351-mdl-chengdu-major/" class="tour">MDL Chengdu Major</a>
+                                    <a data-match="14212" href="#/esport/tournament/369-ggbet-championship/" class="tour">GGBET Championship</a>
+                                    <a data-match="14207" href="#/esport/tournament/369-ggbet-championship/" class="tour">GGBET Championship</a>
+                                    <a data-match="14269" href="#/esport/tournament/351-mdl-chengdu-major/" class="tour">MDL Chengdu Major</a>
+                                    <a data-match="14270" href="#/esport/tournament/351-mdl-chengdu-major/" class="tour">MDL Chengdu Major</a>
+                                    <a data-match="14210" href="#/esport/tournament/369-ggbet-championship/" class="tour">GGBET Championship</a>
+                                    <a data-match="14213" href="#/esport/tournament/369-ggbet-championship/" class="tour">GGBET Championship</a>
+                                    <a data-match="14214" href="#/esport/tournament/369-ggbet-championship/" class="tour">GGBET Championship</a>
+                                    <a data-match="14215" href="#/esport/tournament/355-parimatch-league-season-1/" class="tour">Parimatch League Season 1</a>
+                            </div>
+        <a href="##" class="control" data-action="next">
+            <i class="fa fa-angle-right fa-3x"></i>
+        </a>
+        </div>
+
+        <div class="new-m-matches-container-mobile js-list"
+     data-show-more-step="4"
+     data-show-more-current="4"
+     data-show-more-max="13"
+>
+    <div class="new-m-matches-container-mobile__matches-list ">
+                    <a class="match js-item" href="#/esport/match/14209-gentlemen-vs-pavaga-gaming/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        Gentle                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/4891.png?1572409041"
+                         alt="Gentlemen">
+                </div>
+                <div class="match__status js-status">
+                    <div class="score"><i class="score-cup fa fa-trophy show-result" data-score="2:0"></i></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/4971.png?1574017324"
+                         alt="Pavaga Gaming">
+                    <p class="match__team-name">
+                        PVG                                            </p>
+                </div>
+            </a>
+                    <a class="match js-item" href="#/esport/match/14211-jfshfh178-vs-gentlemen/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        j178                                                <br>
+                            <span class="match__team-odds" title="Коэффициенты букмекеров">
+                                (1.45)
+                            </span>
+                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/4856.png?1570266064"
+                         alt="jfshfh178">
+                </div>
+                <div class="match__status js-status">
+                    <div class="time"><span data-time="1574442000">20:00</span><div data-time="1574442000" class="date" data-id="1574442000">22.11</div><div class="to-start-time">Через 2 ч. 22 мин.</div></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/4891.png?1572409041"
+                         alt="Gentlemen">
+                    <p class="match__team-name">
+                        Gentle                                                <br>
+                            <span class="match__team-odds" title="Коэффициенты букмекеров">
+                                (1.45)
+                            </span>
+                                            </p>
+                </div>
+            </a>
+                    <a class="match js-item" href="#/esport/match/14266-j-storm-vs-invictus-gaming/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        JStorm                                                <br>
+                            <span class="match__team-odds" title="Коэффициенты букмекеров">
+                                (3.60)
+                            </span>
+                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/2103.png?1538248443"
+                         alt="J.Storm">
+                </div>
+                <div class="match__status js-status">
+                    <div class="time"><span data-time="1574481600">07:00</span><div data-time="1574481600" class="date" data-id="1574481600">23.11</div><div class="to-start-time">Через 13 ч. 22 мин.</div></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/70.png?1493015937"
+                         alt="Invictus Gaming">
+                    <p class="match__team-name">
+                        iG                                                <br>
+                            <span class="match__team-odds" title="Коэффициенты букмекеров">
+                                (3.60)
+                            </span>
+                                            </p>
+                </div>
+            </a>
+                    <a class="match js-item" href="#/esport/match/14267-tnc-predator-vs-vici-gaming/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        TNC                                                <br>
+                            <span class="match__team-odds" title="Коэффициенты букмекеров">
+                                (2.00)
+                            </span>
+                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/51.png?1563794868"
+                         alt="TNC Predator">
+                </div>
+                <div class="match__status js-status">
+                    <div class="time"><span data-time="1574494200">10:30</span><div data-time="1574494200" class="date" data-id="1574494200">23.11</div><div class="to-start-time">Через 16 ч. 52 мин.</div></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/61.png?1469793782"
+                         alt="Vici Gaming">
+                    <p class="match__team-name">
+                        VG                                                <br>
+                            <span class="match__team-odds" title="Коэффициенты букмекеров">
+                                (2.00)
+                            </span>
+                                            </p>
+                </div>
+            </a>
+                    <a class="match js-item" href="#/esport/match/14268-evil-geniuses-vs-tbd/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        EG                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/39.png?1534239910"
+                         alt="Evil Geniuses">
+                </div>
+                <div class="match__status js-status">
+                    <div class="time"><span data-time="1574506800">14:00</span><div data-time="1574506800" class="date" data-id="1574506800">23.11</div><div class="to-start-time">Через 20 ч. 22 мин.</div></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/90.png?1470064834"
+                         alt="TBD">
+                    <p class="match__team-name">
+                        TBD                                            </p>
+                </div>
+            </a>
+                    <a class="match js-item" href="#/esport/match/14212-tbd-vs-tbd/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        TBD                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/90.png?1470064834"
+                         alt="TBD">
+                </div>
+                <div class="match__status js-status">
+                    <div class="time"><span data-time="1574521200">18:00</span><div data-time="1574521200" class="date" data-id="1574521200">23.11</div></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/90.png?1470064834"
+                         alt="TBD">
+                    <p class="match__team-name">
+                        TBD                                            </p>
+                </div>
+            </a>
+                    <a class="match js-item" href="#/esport/match/14207-team-singularity-vs-wind-and-rain/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        SNG                                                <br>
+                            <span class="match__team-odds" title="Коэффициенты букмекеров">
+                                (1.65)
+                            </span>
+                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/782.png?1534061935"
+                         alt="Team Singularity">
+                </div>
+                <div class="match__status js-status">
+                    <div class="time"><span data-time="1574532000">21:00</span><div data-time="1574532000" class="date" data-id="1574532000">23.11</div></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/1334.png?1534005752"
+                         alt="Wind and Rain">
+                    <p class="match__team-name">
+                        WaR                                                <br>
+                            <span class="match__team-odds" title="Коэффициенты букмекеров">
+                                (1.65)
+                            </span>
+                                            </p>
+                </div>
+            </a>
+                    <a class="match js-item" href="#/esport/match/14269-tbd-vs-tbd/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        TBD                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/90.png?1470064834"
+                         alt="TBD">
+                </div>
+                <div class="match__status js-status">
+                    <div class="time"><span data-time="1574571600">08:00</span><div data-time="1574571600" class="date" data-id="1574571600">24.11</div></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/90.png?1470064834"
+                         alt="TBD">
+                    <p class="match__team-name">
+                        TBD                                            </p>
+                </div>
+            </a>
+                    <a class="match js-item" href="#/esport/match/14270-tbd-vs-tbd/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        TBD                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/90.png?1470064834"
+                         alt="TBD">
+                </div>
+                <div class="match__status js-status">
+                    <div class="time"><span data-time="1574586000">12:00</span><div data-time="1574586000" class="date" data-id="1574586000">24.11</div></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/90.png?1470064834"
+                         alt="TBD">
+                    <p class="match__team-name">
+                        TBD                                            </p>
+                </div>
+            </a>
+                    <a class="match js-item" href="#/esport/match/14210-ad-finem-vs-nemiga-gaming/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        Ad Finem                                                <br>
+                            <span class="match__team-odds" title="Коэффициенты букмекеров">
+                                (1.52)
+                            </span>
+                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/85.png?1568917755"
+                         alt="Ad Finem">
+                </div>
+                <div class="match__status js-status">
+                    <div class="time"><span data-time="1574600400">16:00</span><div data-time="1574600400" class="date" data-id="1574600400">24.11</div></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/2046.png?1538847745"
+                         alt="Nemiga Gaming">
+                    <p class="match__team-name">
+                        Nemiga                                                <br>
+                            <span class="match__team-odds" title="Коэффициенты букмекеров">
+                                (1.52)
+                            </span>
+                                            </p>
+                </div>
+            </a>
+                    <a class="match js-item" href="#/esport/match/14213-tbd-vs-tbd/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        TBD                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/90.png?1470064834"
+                         alt="TBD">
+                </div>
+                <div class="match__status js-status">
+                    <div class="time"><span data-time="1574611200">19:00</span><div data-time="1574611200" class="date" data-id="1574611200">24.11</div></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/90.png?1470064834"
+                         alt="TBD">
+                    <p class="match__team-name">
+                        TBD                                            </p>
+                </div>
+            </a>
+                    <a class="match js-item" href="#/esport/match/14214-tbd-vs-tbd/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        TBD                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/90.png?1470064834"
+                         alt="TBD">
+                </div>
+                <div class="match__status js-status">
+                    <div class="time"><span data-time="1574697600">19:00</span><div data-time="1574697600" class="date" data-id="1574697600">25.11</div></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/90.png?1470064834"
+                         alt="TBD">
+                    <p class="match__team-name">
+                        TBD                                            </p>
+                </div>
+            </a>
+                    <a class="match js-item" href="#/esport/match/14215-virtus-pro-vs-hellraisers/">
+                <div class="match__team match__team--left">
+                    <p class="match__team-name">
+                        VP                                                <br>
+                            <span class="match__team-odds" title="Коэффициенты букмекеров">
+                                (1.20)
+                            </span>
+                                            </p>
+                    <img class="match__team-logo" src="/img/esport/team/72.png?1565666911"
+                         alt="Virtus.pro">
+                </div>
+                <div class="match__status js-status">
+                    <div class="time"><span data-time="1574938800">14:00</span><div data-time="1574938800" class="date" data-id="1574938800">28.11</div></div>
+                </div>
+                <div class="match__team match__team--right">
+                    <img class="match__team-logo" src="/img/esport/team/893.png?1500543333"
+                         alt="HellRaisers">
+                    <p class="match__team-name">
+                        HR                                                <br>
+                            <span class="match__team-odds" title="Коэффициенты букмекеров">
+                                (1.20)
+                            </span>
+                                            </p>
+                </div>
+            </a>
+            </div>
+    <button class="new-m-matches-container-mobile__show-more js-list-show-more">
+        Показать ещё <i class="fa-chevron-down fa"></i>
+    </button>
+</div>
+
+</section>
+
+<div class="main-b-left">
+<section class="a-news">
+	<h2><a href="#/news/">Новости</a></h2>
+	<i class="fa fa-gear news-customization disable-view" title="Настройка новостей"></i>
+
+	<ul class="cat js-news-categories-list" id="news-categories">
+		<li class="active" data-news-tab="0" data-category-code="all">Все</li>
+		<li data-news-tab="1" data-category-code="updates" >Обновления</li>
+		<li data-news-tab="2" data-category-code="cybersport" >Киберспорт</li>
+		<li data-news-tab="3" data-category-code="interviews" >Интервью</li>
+		<li data-news-tab="4" data-category-code="articles" >Статьи</li>
+		<li data-news-tab="5" data-category-code="different" >Разное</li>
+	</ul>
+    <div id="js-news-categories-blocks-wrapper">
+        <div id="news-categories-blocks" class="m-news news-old js-news-categories-blocks">
+            <article class="item mod-old "
+         style="background-image: url(/img/news/t1574432116.jpg); ">
+    <a
+                    href="#/news/13214-team-unique-podpisala-vtoroj-sostav-po-dota-2/"
+            >
+        <div class="content">
+            <div class="inline">
+                <h3 class="title">Team Unique подписала второй состав по Dota 2</h3>
+                <div class="info">
+                    <span class="date">6 мин. назад</span>
+                    <div class="comment-rating">
+                        <i class="fa fa-star" style="color: #767779"></i> 0                                                    <i class="fa fa-comment"></i> 2                                            </div>
+                </div>
+            </div>
+        </div>
+                    </a>
+</article>
+
+            <article class="item mod-old "
+         style="background-image: url(/img/news/t1574413655.jpg); ">
+    <a
+                    href="#/news/13208-statistika-chiterov-po-rangam-i-rolyam/"
+            >
+        <div class="content">
+            <div class="inline">
+                <h3 class="title">Статистика читеров по рангам и ролям</h3>
+                <div class="info">
+                    <span class="date">30 мин. назад</span>
+                    <div class="comment-rating">
+                        <i class="fa fa-star" style="color: #767779"></i> 2                                                    <i class="fa fa-comment"></i> 17                                            </div>
+                </div>
+            </div>
+        </div>
+                    </a>
+</article>
+
+            <article class="item mod-old "
+         style="background-image: url(/img/news/t1574087186.jpg); ">
+    <a
+                    href="#/news/13210-mdl-chengdu-major-itogi-chetvertogo-dnya-plej-off/"
+            >
+        <div class="content">
+            <div class="inline">
+                <h3 class="title">MDL Chengdu Major: итоги четвертого дня плей-офф</h3>
+                <div class="info">
+                    <span class="date">2 час. назад</span>
+                    <div class="comment-rating">
+                        <i class="fa fa-star" style="color: #767779"></i> 2                                                    <i class="fa fa-comment"></i> 12                                            </div>
+                </div>
+            </div>
+        </div>
+                    </a>
+</article>
+
+            <article class="item mod-old "
+         style="background-image: url(/img/news/t1574424299.jpg); ">
+    <a
+                    href="#/news/13212-lil-prokommentiroval-transfer-natus-vincere/"
+            >
+        <div class="content">
+            <div class="inline">
+                <h3 class="title">Lil прокомментировал трансфер Natus Vincere</h3>
+                <div class="info">
+                    <span class="date">3 час. назад</span>
+                    <div class="comment-rating">
+                        <i class="fa fa-star" style="color: #767779"></i> -6                                                    <i class="fa fa-comment"></i> 59                                            </div>
+                </div>
+            </div>
+        </div>
+                    </a>
+</article>
+
+            <article class="item mod-old "
+         style="background-image: url(/img/news/t1574420664.jpg); ">
+    <a
+                    href="#/news/13211-natus-vincere-ukomplektovali-sostav-po-dota-2/"
+            >
+        <div class="content">
+            <div class="inline">
+                <h3 class="title">Natus Vincere укомплектовали состав по Dota 2</h3>
+                <div class="info">
+                    <span class="date">4 час. назад</span>
+                    <div class="comment-rating">
+                        <i class="fa fa-star" style="color: #767779"></i> 18                                                    <i class="fa fa-comment"></i> 52                                            </div>
+                </div>
+            </div>
+        </div>
+                    </a>
+</article>
+
+            <article class="item mod-old "
+         style="background-image: url(/img/news/t1574416939.jpg); ">
+    <a
+                    href="#/news/13209-ghostik-na-nas-visit-klejmo-sng-top-16/"
+            >
+        <div class="content">
+            <div class="inline">
+                <h3 class="title">Ghostik: «На нас висит клеймо &quot;СНГ-ТОП-16&quot;»</h3>
+                <div class="info">
+                    <span class="date">5 час. назад</span>
+                    <div class="comment-rating">
+                        <i class="fa fa-star" style="color: #767779"></i> 10                                                    <i class="fa fa-comment"></i> 25                                            </div>
+                </div>
+            </div>
+        </div>
+                    </a>
+</article>
+
+            <article class="item mod-old "
+         style="background-image: url(/img/news/t1574409576.jpg); ">
+    <a
+                    href="#/news/13206-insania-nikto-ne-skazal-mne-o-ty-proigral-nam-ti/"
+            >
+        <div class="content">
+            <div class="inline">
+                <h3 class="title">INsania: «Никто не сказал мне: &quot;О, ты проиграл нам TI&quot;»</h3>
+                <div class="info">
+                    <span class="date">7 час. назад</span>
+                    <div class="comment-rating">
+                        <i class="fa fa-star" style="color: #767779"></i> 5                                                    <i class="fa fa-comment"></i> 11                                            </div>
+                </div>
+            </div>
+        </div>
+                    </a>
+</article>
+
+            <article class="item mod-old "
+         style="background-image: url(/img/news/t1574408199.jpg); ">
+    <a
+                    href="#/news/13207-valve-predstavili-trejler-half-life-alyx/"
+            >
+        <div class="content">
+            <div class="inline">
+                <h3 class="title">Valve представили трейлер Half-Life: Alyx</h3>
+                <div class="info">
+                    <span class="date">8 час. назад</span>
+                    <div class="comment-rating">
+                        <i class="fa fa-star" style="color: #767779"></i> 17                                                    <i class="fa fa-comment"></i> 46                                            </div>
+                </div>
+            </div>
+        </div>
+                    </a>
+</article>
+
+            <article class="item mod-old "
+         style="background-image: url(/img/news/t1574365992.jpg); ">
+    <a
+                    href="#/news/13205-dendi-sobral-novyj-sostav/"
+            >
+        <div class="content">
+            <div class="inline">
+                <h3 class="title">Dendi собрал новый состав</h3>
+                <div class="info">
+                    <span class="date">вчера в 22:58</span>
+                    <div class="comment-rating">
+                        <i class="fa fa-star" style="color: #767779"></i> 199                                                    <i class="fa fa-comment"></i> 112                                            </div>
+                </div>
+            </div>
+        </div>
+                    </a>
+</article>
+
+            <article class="item mod-old "
+         style="background-image: url(/img/news/t1574365752.jpg); ">
+    <a
+                    href="#/news/13204-illidan-bolshe-ne-budet-trenirovat-chaos/"
+            >
+        <div class="content">
+            <div class="inline">
+                <h3 class="title">Illidan больше не будет тренировать Chaos</h3>
+                <div class="info">
+                    <span class="date">вчера в 22:49</span>
+                    <div class="comment-rating">
+                        <i class="fa fa-star" style="color: #767779"></i> 11                                                    <i class="fa fa-comment"></i> 24                                            </div>
+                </div>
+            </div>
+        </div>
+                    </a>
+</article>
+
+            <article class="item mod-old "
+         style="background-image: url(/img/news/t1574365218.jpg); ">
+    <a
+                    href="#/news/13203-fear-o-severnoj-amerike-region-stanovitsya-silnee/"
+            >
+        <div class="content">
+            <div class="inline">
+                <h3 class="title">Fear о Северной Америке: «Регион становится сильнее»</h3>
+                <div class="info">
+                    <span class="date">вчера в 22:40</span>
+                    <div class="comment-rating">
+                        <i class="fa fa-star" style="color: #767779"></i> 4                                                    <i class="fa fa-comment"></i> 9                                            </div>
+                </div>
+            </div>
+        </div>
+                    </a>
+</article>
+
+            <article class="item mod-old "
+         style="background-image: url(/img/news/t1574359161.jpg); ">
+    <a
+                    href="#/news/13202-vtfded-prokommentiroval-svoj-uhod-iz-ehome/"
+            >
+        <div class="content">
+            <div class="inline">
+                <h3 class="title">vtFαded прокомментировал свой уход из EHOME</h3>
+                <div class="info">
+                    <span class="date">вчера в 21:00</span>
+                    <div class="comment-rating">
+                        <i class="fa fa-star" style="color: #767779"></i> 5                                                    <i class="fa fa-comment"></i> 10                                            </div>
+                </div>
+            </div>
+        </div>
+                    </a>
+</article>
+
+    </div>
+    </div>
+    <button class="append-more-records js-news-append-on-main"
+            data-offset-mobile="8"
+            data-limit-mobile="4"
+            data-offset="12"
+            data-limit="6"
+            data-url="/news/append_on_main/"
+            data-game="">
+        Показать ещё
+    </button>
+</section>
+
+</div>
+
+<div class="main-b-right">
+
+<div class="main-b-right-c-left">
+
+
+<section class="activities-block ">
+    <h2><a href="#/forum/">Активность</a></h2>
+	<i class="fa fa-gear forum-customization disable-view"
+       title="Настройка форума"></i>
+    <article class="item ">
+    <a href="#/forum/threads/mir-glazami-mipopikera.1327259/">
+        <div class="text">
+            <i class="fa fa-star" title="Тема дня"></i>                         Мир глазами мипопикера</div>
+        <div class="comments"><i class="fa fa-comments"></i> 127</div>
+
+        <div class="short">
+            <div class="title">Мир глазами мипопикера</div>
+            <div class="author">Автор: Middle.Only_xD</div>
+            <div class="node">Общие вопросы и обсуждения</div>
+            <div class="message">Итак. Я тот чел, который берет бруду, мепо, тинкера на 10 или 9 пик. Так же, если появляется сильная метовая параша, я ее тоже начинаю брать(морф ес например). Думаю, что говорить, что на этих героях исполнять...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/kogo-nuzhno-apnut-v-nekst-patche.1327251/">
+        <div class="text">
+            <i class="fa fa-star" title="Тема дня"></i>                         Кого нужно апнуть в некст патче</div>
+        <div class="comments"><i class="fa fa-comments"></i> 92</div>
+
+        <div class="short">
+            <div class="title">Кого нужно апнуть в некст патче</div>
+            <div class="author">Автор: Lancer.Rev.X</div>
+            <div class="node">Герои: общие обсуждения</div>
+            <div class="message">В первую очередь нужно добавить интеллекта . На 25 уровне с 8 слотами у него не хватает маны на прокаст! Статы на него никакие не купить и он вынужден ходить в арканах вместо тревелов. Прирост хотя бы...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/aleks-1203c-ruiner.1327269/">
+        <div class="text">
+            <i class="fa fa-star" title="Тема дня"></i>                         Алекс 1203c руинер?</div>
+        <div class="comments"><i class="fa fa-comments"></i> 88</div>
+
+        <div class="short">
+            <div class="title">Алекс 1203c руинер?</div>
+            <div class="author">Автор: SkyOfflaneOnly</div>
+            <div class="node">Обитель нытья</div>
+            <div class="message">Сел я на 3300 смурф нашло игру, смотрю у меня чел на 4 поз идет в лес, а второй высерает поз 5 бх, но это не самое главное. Самое смешное, что кто-то забанил мне Брю, ну я решил поучиться на Магнусе (из...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/pochemu-javascript.1326072/">
+        <div class="text">
+                                    Почему JavaScript?</div>
+        <div class="comments"><i class="fa fa-comments"></i> 105</div>
+
+        <div class="short">
+            <div class="title">Почему JavaScript?</div>
+            <div class="author">Автор: AnimesnikWor</div>
+            <div class="node">Программирование</div>
+            <div class="message">Господе, почему каждый 2 советует начать изучать JS? Почему? Зачем? Это самый, убогий язык на свете, как для понимания что такое программирование он вообще не годится. Есть же священный C++, ну или что...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/navi-thread.898375/">
+        <div class="text">
+                                    Na'Vi Thread</div>
+        <div class="comments"><i class="fa fa-comments"></i> 3671</div>
+
+        <div class="short">
+            <div class="title">Na'Vi Thread</div>
+            <div class="author">Автор: Karacik</div>
+            <div class="node">Игроки и команды</div>
+            <div class="message">Тред посвящён только Dota 2 составуТема создана для обсуждения матчей нашей любимой команды. Делитесь хайлайтами, пишите когда подрубил дендибосс, общайтесь! Natus Vincere (лат. Рожденные Побеждать) –...</div>
+        </div>
+    </a>
+</article>
+<article class="item">
+    <a href="#/news/13214-team-unique-podpisala-vtoroj-sostav-po-dota-2/">
+        <div class="text">
+                        Team Unique подписала второй состав по Dota 2        </div>
+        <div class="comments"><i class="fa fa-comments"></i> 2</div>
+
+        <div class="short">
+            <div class="title">Team Unique подписала второй состав по Dota 2</div>
+            <div class="author">Автор: NiceNice ~</div>
+            <div class="node">Новости</div>
+            <div class="message">Российская организация Unique открыла молодежный состав по Dota 2. Информация об этом появилась в группе «ВКонтакте». Под крыло организации перешел «микс»  MY MUTANTI в полном составе, запомнившийся отказом...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/raskachka-ogra.1327306/">
+        <div class="text">
+                                    Раскачка Огра</div>
+        <div class="comments"><i class="fa fa-comments"></i> 35</div>
+
+        <div class="short">
+            <div class="title">Раскачка Огра</div>
+            <div class="author">Автор: onehellsin</div>
+            <div class="node">Герои: общие обсуждения</div>
+            <div class="message">Возник тут спор, что качать огру на первом уровне? Условие вы стоите в харде, против вас нет (игнайт сбросить нечем) Противники стандартные мили керри + ренжевый саппорт. С вами есть второй тиммейт, стоите...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/dr-v-odinochke.1327349/">
+        <div class="text">
+                                    др в одиночке</div>
+        <div class="comments"><i class="fa fa-comments"></i> 8</div>
+
+        <div class="short">
+            <div class="title">др в одиночке</div>
+            <div class="author">Автор: Qniceeee</div>
+            <div class="node">Таверна</div>
+            <div class="message">я синглбейби, мне нужно ваше внимание, поздравьте шо бы не плакать ...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/novye-ajtemy-v-novom-patche.1327312/">
+        <div class="text">
+                                    Новые айтемы в новом патче</div>
+        <div class="comments"><i class="fa fa-comments"></i> 6</div>
+
+        <div class="short">
+            <div class="title">Новые айтемы в новом патче</div>
+            <div class="author">Автор: Voyager1</div>
+            <div class="node">Герои: общие обсуждения</div>
+            <div class="message">Как думаете, что нового появиться из предметов? Чего сейчас не хватает? ...</div>
+        </div>
+    </a>
+</article>
+<article class="item">
+    <a href="#/news/13211-natus-vincere-ukomplektovali-sostav-po-dota-2/">
+        <div class="text">
+                        Natus Vincere укомплектовали состав по Dota 2        </div>
+        <div class="comments"><i class="fa fa-comments"></i> 52</div>
+
+        <div class="short">
+            <div class="title">Natus Vincere укомплектовали состав по Dota 2</div>
+            <div class="author">Автор: About</div>
+            <div class="node">Новости</div>
+            <div class="message">Организация Natus Vincere объявила имя пятого игрока одноименной команды — им стал Ильяс 'illias' Ганеев. Информация об этом появилась на официальном сайте «рожденных побеждать».  Ильяс 'illias' Ганеев...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/chto-po-zp-v-rossii.1327195/">
+        <div class="text">
+                                    Что по зп в России?</div>
+        <div class="comments"><i class="fa fa-comments"></i> 57</div>
+
+        <div class="short">
+            <div class="title">Что по зп в России?</div>
+            <div class="author">Автор: Kullare</div>
+            <div class="node">Таверна</div>
+            <div class="message">Поясните почему продавец-консультант в торговом центре 40к, инженер-конструктор с высшим техническим и опытом работы тоже 40к? В германии Инженер получает 4к евро продавец 1500...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/genialnost-1660-super-ili-sgovor-amd-i-nvidia.1327351/">
+        <div class="text">
+                                    Гениальность 1660 super? или сговор АМД и Нвидиа</div>
+        <div class="comments"><i class="fa fa-comments"></i> 2</div>
+
+        <div class="short">
+            <div class="title">Гениальность 1660 super? или сговор АМД и Нвидиа</div>
+            <div class="author">Автор: [TES]EidEnuard</div>
+            <div class="node">Железо и обсуждения</div>
+            <div class="message">Доброе.По новостям, которые были летом (особенно после 07.07.2019), АМД планировали выпустить к концу 2019-го практически полный модельный ряд 5-ти тысячных. Но выпустила только 5700 и 5700ХТ. Ожидается...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/obitel-nytja-i-obschee-obsuzhdenie.631486/">
+        <div class="text">
+                                    Обитель нытья и общее обсуждение</div>
+        <div class="comments"><i class="fa fa-comments"></i> 180917</div>
+
+        <div class="short">
+            <div class="title">Обитель нытья и общее обсуждение</div>
+            <div class="author">Автор: _EsConts_</div>
+            <div class="node">League of Legends</div>
+            <div class="message">Предлагаю сделать эту тему официальной обителью нытья для раздела League of Legends. Я начну. Что я делаю не так?Я взял Фиору в мид, унизил там Ясуо, сделал на нем фб, выиграл бот ганками по кд, что я...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/ja-krasavchik.1327332/">
+        <div class="text">
+                                    Я красавчик?</div>
+        <div class="comments"><i class="fa fa-comments"></i> 42</div>
+
+        <div class="short">
+            <div class="title">Я красавчик?</div>
+            <div class="author">Автор: ФеняДелайКлизму</div>
+            <div class="node">Таверна</div>
+            <div class="message">Всем приветик, не могли бы вы оценить мое милое личико. Я 26 летний анимешник социофоб-дединсайд-интроверт,который хочет любви. Есть ли шанс с таким фейсом найти себе тянку или хотябы красивого трапика?Или...</div>
+        </div>
+    </a>
+</article>
+<article class="item premium">
+    <a href="#/forum/threads/smotr-kvartiry.1327352/">
+        <div class="text">
+                                    Смотр квартиры</div>
+        <div class="comments"><i class="fa fa-comments"></i> 4</div>
+
+        <div class="short">
+            <div class="title">Смотр квартиры</div>
+            <div class="author">Автор: FОLDЕR_</div>
+            <div class="node">Таверна</div>
+            <div class="message">Добрый вечер, форум. Перейду сразу к делу: с другом будем снимать однушку, не для постоянного житья, а для бухичей и прочего. Что нужно смотреть, на что обращать внимание, чтобы нас не ******* (надули)...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/sovmestimo-li-zhelezo.1327353/">
+        <div class="text">
+                                    совместимо ли железо?</div>
+        <div class="comments"><i class="fa fa-comments"></i> 2</div>
+
+        <div class="short">
+            <div class="title">совместимо ли железо?</div>
+            <div class="author">Автор: Flash18</div>
+            <div class="node">Сборка ПК, значительный апгрейд</div>
+            <div class="message">Ку, гайз Вообщем хочу заменить детали в компике оцените пожалуйста и подскажите все ли совместимо бюджет постараться уложиться в 60к челябинск https://www.dns-shop.ru/product/ea111905a77a1b80/videokarta-kfa2-geforce-rtx-2070-super-ex---1-click-oc-27isl6mdu9ek/...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/otkljuchenie-knopok.1327303/">
+        <div class="text">
+                                    Отключение кнопок</div>
+        <div class="comments"><i class="fa fa-comments"></i> 13</div>
+
+        <div class="short">
+            <div class="title">Отключение кнопок</div>
+            <div class="author">Автор: Holy Satanist</div>
+            <div class="node">Обитель нытья</div>
+            <div class="message">Периодически сталкиваюсь с такой проблемой - просто отключаются кнопки. То есть играешь, играешь, и тут бац - и герой просто не реагирует на мои команды. А враги, союзники, крипы продолжают делать что...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/dozor-outlanders-update.1304112/">
+        <div class="text">
+                                    [ДОЗОР] Outlanders Update</div>
+        <div class="comments"><i class="fa fa-comments"></i> 7139</div>
+
+        <div class="short">
+            <div class="title">[ДОЗОР] Outlanders Update</div>
+            <div class="author">Автор: knowledge.</div>
+            <div class="node">Обновления и патчи</div>
+            <div class="message">В конце презентационного ролика нового героя Было указано &quot;Outlanders Update&quot; (дословно &quot;Обновление чужеземцев&quot;) Приблизительный перевод слов Void Spirit Цитата:Уже давно мои божественные...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/detroit-become-human-vyxodit-na-pk.1326919/">
+        <div class="text">
+                                    Detroit: Become Human выходит на пк</div>
+        <div class="comments"><i class="fa fa-comments"></i> 25</div>
+
+        <div class="short">
+            <div class="title">Detroit: Become Human выходит на пк</div>
+            <div class="author">Автор: interupt</div>
+            <div class="node">Другие игры</div>
+            <div class="message">Студия Quantic Dream объявила официальную дату релиза ПК-версии Detroit: Become Human. Игра станет доступна 12 декабря этого года в сервисе Epic Games Store.  Также был опубликован новый трейлерПервоначально...</div>
+        </div>
+    </a>
+</article>
+<article class="item ">
+    <a href="#/forum/threads/lost-ark-ru-pomojka.1327301/">
+        <div class="text">
+                                    [Lost ark RU] - помойка</div>
+        <div class="comments"><i class="fa fa-comments"></i> 4</div>
+
+        <div class="short">
+            <div class="title">[Lost ark RU] - помойка</div>
+            <div class="author">Автор: PDT.Professional_Killer</div>
+            <div class="node">MMO (RPG, FPS, RTS)</div>
+            <div class="message">Вопрос именно тем кто играл/играет на Корее: &quot;Правда ли что mail.ru все в го*** порезали?&quot;   Например нашел инфу что порезали дико награды за: &quot;семена макоко&quot;, &quot;рисунки&quot;...</div>
+        </div>
+    </a>
+</article>
+</section>
+
+<section class="new-m-streams">
+    <h2><a href="#/streams/">Стримы</a></h2>
+
+    
+    
+        <article class="item prior0 small">
+            <a href="#/streams/5761-icebergdoto/">
+
+
+                <img src="/img/streams/m/5761.jpg?1574430726"
+                     class="streamer-img pl0" >
+
+                <div class="streamer">
+                    icebergdoto                    <div class="info"><span>ИГРАЮ В ДОТУ https://start.parimatch.com/esports/dota/1/?btag=a_22263b_1006c_&siteid=22263
+</span></div>
+                </div>
+
+                
+                <div class="views"><i class="fa fa-eye"></i> 3071</div>
+            </a>
+        </article>
+
+    
+
+    
+        <article class="item prior0 small">
+            <a href="#/streams/5441-botanicx/">
+
+
+                <img src="/img/streams/m/5441.jpg?1574428926"
+                     class="streamer-img pl0" >
+
+                <div class="streamer">
+                    BotanicX                    <div class="info"><span>ИГРАЕМ ПРОТИВ БУСТЕРОВ НА 1К ММР!?) ^_^ </span></div>
+                </div>
+
+                
+                <div class="views"><i class="fa fa-eye"></i> 1673</div>
+            </a>
+        </article>
+
+    
+
+    
+        <article class="item prior1 small">
+            <a href="#/streams/4252-puth/">
+
+
+                <img src="/img/streams/m/4252.jpg?1574410446"
+                     class="streamer-img pl1" title="Премиум размещение">
+
+                <div class="streamer">
+                    Puth                    <div class="info"><span>День великих мыслей. Пытаюсь доапать титана. 5500 ммр~</span></div>
+                </div>
+
+                                    <!-- <div class="promote-line pl1" title="Премиум размещение"></div> -->
+                
+                <div class="views"><i class="fa fa-eye"></i> 3</div>
+            </a>
+        </article>
+
+    
+
+    
+        <article class="item prior0 small">
+            <a href="#/streams/6971-omenbyhpeurope/">
+
+
+                <img src="/img/streams/m/6971.jpg?1574433246"
+                     class="streamer-img pl0" >
+
+                <div class="streamer">
+                    OMENbyHPEurope                    <div class="info"><span>[RUS] OMENSquad Arcade GGwpLanaya </span></div>
+                </div>
+
+                
+                <div class="views"><i class="fa fa-eye"></i> 1223</div>
+            </a>
+        </article>
+
+    
+
+    
+        <article class="item prior0 small">
+            <a href="#/streams/1436-altaoda/">
+
+
+                <img src="/img/streams/m/1436.jpg?1574409606"
+                     class="streamer-img pl0" >
+
+                <div class="streamer">
+                    ALTAODA                    <div class="info"><span>В ожидании Патча ( не папича)</span></div>
+                </div>
+
+                
+                <div class="views"><i class="fa fa-eye"></i> 962</div>
+            </a>
+        </article>
+
+    
+
+    
+        <article class="item prior0 small">
+            <a href="#/streams/7446-johnybastions/">
+
+
+                <img src="/img/streams/m/7446.jpg?1574416326"
+                     class="streamer-img pl0" >
+
+                <div class="streamer">
+                    JohnyBastions                    <div class="info"><span>Поднимаемся на САППОРТЕ</span></div>
+                </div>
+
+                
+                <div class="views"><i class="fa fa-eye"></i> 667</div>
+            </a>
+        </article>
+
+    
+
+    
+        <article class="item prior0 small">
+            <a href="#/streams/4-versuta/">
+
+
+                <img src="/img/streams/m/4.jpg?1574431745"
+                     class="streamer-img pl0" >
+
+                <div class="streamer">
+                    VeRsuta                    <div class="info"><span>Бойцовский клуб из диванов и титанов</span></div>
+                </div>
+
+                
+                <div class="views"><i class="fa fa-eye"></i> 629</div>
+            </a>
+        </article>
+
+    
+
+    
+        <article class="item prior0 small">
+            <a href="#/streams/5588-serega_pirat/">
+
+
+                <img src="/img/streams/m/5588.jpg?1574433066"
+                     class="streamer-img pl0" >
+
+                <div class="streamer">
+                    serega_pirat                    <div class="info"><span>фп ам</span></div>
+                </div>
+
+                
+                <div class="views"><i class="fa fa-eye"></i> 515</div>
+            </a>
+        </article>
+
+    
+
+</section>
+
+
+</div>
+
+<style>
+.main-b-right-c-right2 {
+    width: calc(50% - 7.5px);
+    min-width: 240px;
+    margin: 0 0 15px;
+    float: left;
+}
+</style>
+
+<div class="main-b-right-c-right2">
+    <style>
+.kratos {
+	background: #1b1c20;
+	width: 100%;
+	padding: 30px 0;
+	margin: 0 0 15px;
+	position: relative;
+}
+.kratos > div {
+	width: 240px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.kratos a {
+    width: 240px;
+    height: 400px;
+    display: block;
+	position: relative;
+}
+</style>
+<div class="banner240x400"></div>
+<section class="kratos"><div>
+
+
+   	<a href="#/plain/101" target="_blank" rel="nofollow"><img src="/img/wowcn24.jpg"><div class="awrite">AD</div></a>
+
+	
+
+</div></section>
+<!--AdFox START-->
+
+    <section class="m-blogs">
+        <h2><a href="#/blogs/">Блоги</a></h2>
+                    <article class="item">
+    <a href="#/blogs/post/3681-geroi-kotorye-budut-oslableny-v-patche-7-23/">
+        <div class="title">Герои, которые будут ослаблены в следующем патче</div>
+        <div class="info">
+            Dark Matter - 18 Ноя 2019 в 16:00        </div>
+    </a>
+</article>
+                    <article class="item">
+    <a href="#/blogs/post/3680-vozvrashhenie-na-professionalnuju-scenu-kogo-zhdut-bolelshhiki/">
+        <div class="title">Возвращение на профессиональную сцену: кого ждут болельщики?</div>
+        <div class="info">
+            kostbester - 16 Ноя 2019 в 23:01        </div>
+    </a>
+</article>
+                    <article class="item">
+    <a href="#/blogs/post/3679-faceless-void-luchshij-kerri-patcha/">
+        <div class="title">Faceless Void — лучший керри патча</div>
+        <div class="info">
+            Dark Matter - 16 Ноя 2019 в 15:52        </div>
+    </a>
+</article>
+                    <article class="item">
+    <a href="#/blogs/post/3678-o-virtus-pro/">
+        <div class="title">О Virtus.pro</div>
+        <div class="info">
+            toshka_geradot - 25 Сен 2019 в 20:01        </div>
+    </a>
+</article>
+                    <article class="item">
+    <a href="#/blogs/post/3677-s1mple-ujdet-iz-navi/">
+        <div class="title">s1mple уйдет из Na'Vi?</div>
+        <div class="info">
+            revochka - 16 Сен 2019 в 23:15        </div>
+    </a>
+</article>
+                    <article class="item">
+    <a href="#/blogs/post/3675-tnc-predator-dota-2-anonsirovali-novyj-roster-na-predstoyashhij-sezon/">
+        <div class="title">TNC Predator (Dota 2) анонсировали новый ростер на предстоящий сезон</div>
+        <div class="info">
+            revochka - 13 Сен 2019 в 15:27        </div>
+    </a>
+</article>
+                    <article class="item">
+    <a href="#/blogs/post/3673-kollab-team-secret-sovmestno-s-levante-brewing-company/">
+        <div class="title">Коллаб Team Secret совместно с Levante Brewing Company</div>
+        <div class="info">
+            revochka - 12 Сен 2019 в 18:33        </div>
+    </a>
+</article>
+                <button class="append-more-records js-blogs-append-on-main"
+                data-offset="7"
+                data-limit="4"
+                data-url="/blogs/append_on_main/">
+            Показать ещё
+        </button>
+    </section>
+
+    <section class="m-memes">
+        <h2><a href="#/memes/">Мемы</a></h2>
+
+        <div id="memes-slider">
+            
+                <article class="item active" data-id="0" >
+                    <a href="#/memes/64324/" class="img">
+                        <img src="/img/memes/2019/11/190x148/64324.jpg" >
+                    </a>
+                    <div class="info">
+                        <div class="author"><i class="fa fa-user"></i> Wyett</div>
+                        <div class="rating"><i class="fa fa-star"></i> -12</div>
+                    </div>
+                </article>
+
+            
+                <article class="item " data-id="1" style="display: none;">
+                    <a href="#/memes/64307/" class="img">
+                        <img src="/img/memes/2019/11/190x148/64307.jpg" style="display: none;">
+                    </a>
+                    <div class="info">
+                        <div class="author"><i class="fa fa-user"></i> Обрыга Жмышенко</div>
+                        <div class="rating"><i class="fa fa-star"></i> 1</div>
+                    </div>
+                </article>
+
+            
+                <article class="item " data-id="2" style="display: none;">
+                    <a href="#/memes/64305/" class="img">
+                        <img src="/img/memes/2019/11/190x148/64305.jpg" style="display: none;">
+                    </a>
+                    <div class="info">
+                        <div class="author"><i class="fa fa-user"></i> Mobsman</div>
+                        <div class="rating"><i class="fa fa-star"></i> 214</div>
+                    </div>
+                </article>
+
+            
+                <article class="item " data-id="3" style="display: none;">
+                    <a href="#/memes/64306/" class="img">
+                        <img src="/img/memes/2019/11/190x148/64306.jpg" style="display: none;">
+                    </a>
+                    <div class="info">
+                        <div class="author"><i class="fa fa-user"></i> masturbaka</div>
+                        <div class="rating"><i class="fa fa-star"></i> 161</div>
+                    </div>
+                </article>
+
+                    </div>
+
+        <div class="scroll" id="memes-nav">
+            <div class="prev"><i class="fa fa-angle-left"></i></div>
+        </div>
+        <div class="scroll" id="memes-nav-next">
+            <div class="next"><i class="fa fa-angle-right"></i></div>
+        </div>
+    </section>
+
+</div>
+
+
+
+
+<div class="clb"></div>
+
+</div>
+
+<div class="main-social-and-video">
+    <section class="m-video a-video">
+        <h2><a href="#/video/">Видео</a></h2>
+
+        <div class="all-video">
+                            <article class="item m-item  ">
+                    <a href="#/video/42151-pro-jeskejp-ot-topsona-top-momenty-dota-2/">
+                        <div class="border"></div>
+                        <div class="promote"><i class="fa fa-star"></i></div>
+                        <div class="img"><img src="//i1.ytimg.com/vi/j1gDNlK-4a4/mqdefault.jpg"></div>
+                        <div class="title"><span>ПРО ЭСКЕЙП ОТ ТОПСОНА | ТОП МОМЕНТЫ ДОТА 2</span></div>
+                        <div class="opacity"></div>
+                        <div class="views"><i class="fa fa-eye"></i><br />269</div>
+                        <div class="rating"><i class="fa fa-star"></i><br />0</div>
+                    </a>
+                </article>
+                            <article class="item m-item  ">
+                    <a href="#/video/42150-neodnoznachnyj-match-na-vylet-liquid-vs-alliance-mdl-chengdu-major/">
+                        <div class="border"></div>
+                        <div class="promote"><i class="fa fa-star"></i></div>
+                        <div class="img"><img src="//i1.ytimg.com/vi/v4nh-ern2l4/mqdefault.jpg"></div>
+                        <div class="title"><span> НЕОДНОЗНАЧНЫЙ МАТЧ НА ВЫЛЕТ | LIQUID vs ALLIANCE MDL Chengdu Major</span></div>
+                        <div class="opacity"></div>
+                        <div class="views"><i class="fa fa-eye"></i><br />47</div>
+                        <div class="rating"><i class="fa fa-star"></i><br />0</div>
+                    </a>
+                </article>
+                            <article class="item m-item  ">
+                    <a href="#/video/42149-alliance-vs-liquid-alliance-vs-ex-alliance-elimination-mdl-chengdu-major-dota-2/">
+                        <div class="border"></div>
+                        <div class="promote"><i class="fa fa-star"></i></div>
+                        <div class="img"><img src="//i1.ytimg.com/vi/G_TnWTknRqU/mqdefault.jpg"></div>
+                        <div class="title"><span>ALLIANCE vs LIQUID - Alliance vs ex.Alliance ELIMINATION! - MDL Chengdu MAJOR DOTA 2</span></div>
+                        <div class="opacity"></div>
+                        <div class="views"><i class="fa fa-eye"></i><br />34</div>
+                        <div class="rating"><i class="fa fa-star"></i><br />0</div>
+                    </a>
+                </article>
+                            <article class="item m-item  ">
+                    <a href="#/video/42148-insania-o-perehode-v-liquid-otnosheniyah-s-loda-protivostoyanii-s-alliance/">
+                        <div class="border"></div>
+                        <div class="promote"><i class="fa fa-star"></i></div>
+                        <div class="img"><img src="//i1.ytimg.com/vi/gX-ahr4a8FQ/mqdefault.jpg"></div>
+                        <div class="title"><span>Insania - о переходе в Liquid, отношениях с Loda, противостоянии с Alliance</span></div>
+                        <div class="opacity"></div>
+                        <div class="views"><i class="fa fa-eye"></i><br />40</div>
+                        <div class="rating"><i class="fa fa-star"></i><br />0</div>
+                    </a>
+                </article>
+                            <article class="item m-item  ">
+                    <a href="#/video/42147-strej-protiv-njuhatelya-trusikov-igraet-na-fantomke-tv-dota-2-live-luchshee-so-stray228-streem/">
+                        <div class="border"></div>
+                        <div class="promote"><i class="fa fa-star"></i></div>
+                        <div class="img"><img src="//i1.ytimg.com/vi/Um_MNBNmPQo/mqdefault.jpg"></div>
+                        <div class="title"><span>СТРЕЙ ПРОТИВ НЮХАТЕЛЯ ТРУСИКОВ / ИГРАЕТ НА ФАНТОМКЕ / ТВ ДОТА 2 LIVE Лучшее со Stray228 Стреем</span></div>
+                        <div class="opacity"></div>
+                        <div class="views"><i class="fa fa-eye"></i><br />203</div>
+                        <div class="rating"><i class="fa fa-star"></i><br />-3</div>
+                    </a>
+                </article>
+                            <article class="item m-item  ">
+                    <a href="#/video/42146-dota-2-song-of-karma/">
+                        <div class="border"></div>
+                        <div class="promote"><i class="fa fa-star"></i></div>
+                        <div class="img"><img src="//i1.ytimg.com/vi/LyT7gFBmV3I/mqdefault.jpg"></div>
+                        <div class="title"><span>Dota 2 Song of Karma</span></div>
+                        <div class="opacity"></div>
+                        <div class="views"><i class="fa fa-eye"></i><br />71</div>
+                        <div class="rating"><i class="fa fa-star"></i><br />0</div>
+                    </a>
+                </article>
+                    </div>
+    </section>
+</div>
+
+<style>
+.a-in-after {
+    margin: 5px auto 0;
+    text-align: center;
+    height: 90px;
+    width: 728px;
+    overflow: hidden;
+}
+.adsafter {
+    width: 728px;
+    height: 90px;
+    margin: 0 auto 15px;
+    background: #1b1c20;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+@media only screen and (max-width: 728px)
+{
+    .adsafter {
+        width: 100%;
+        height: auto;
+        font-size: 0;
+        background: none;
+    }
+    .adsafter img {
+        width: 100%;
+    }   
+}
+@media screen and (max-width: 426px)
+{
+    .a72 {
+        display: none !important;
+    }
+    .a42 {
+        display: block !important;
+    }
+    .a42 img {
+        width: 100%;
+    }
+}
+</style>
+
+<div class="clb"></div>
+
+
+<div class="a-in-after adv">
+    <!-- Yandex.RTB R-A-127884-3 -->
+    <div id="yandex_rtb_R-A-127884-3"></div>
+    <script type="text/javascript">
+        (function(w, d, n, s, t) {
+            w[n] = w[n] || [];
+            w[n].push(function() {
+                Ya.Context.AdvManager.render({
+                    blockId: "R-A-127884-3",
+                    renderTo: "yandex_rtb_R-A-127884-3",
+                    async: true
+                });
+            });
+            t = d.getElementsByTagName("script")[0];
+            s = d.createElement("script");
+            s.type = "text/javascript";
+            s.src = "//an.yandex.ru/system/context.js";
+            s.async = true;
+            t.parentNode.insertBefore(s, t);
+        })(this, this.document, "yandexContextAsyncCallbacks");
+    </script>
+</div>
+    
+
+
+
+<style>
+	 .promote-line a {
+		float: left;
+		width: 595px;
+		margin: 0 20px 20px 0;
+		/* width: 1208px;
+		margin: 0 0 20px; */
+		opacity: .6;
+		line-height: 0;
+		height: 100px;
+		/*border: 1px solid #1b1c20;*/
+	}
+	.promote-line a:hover {
+		opacity: 1;
+		box-shadow: 0 0 5px #666;
+	}
+	.promote-line a img {
+		/*width: 1208px;*/
+	}
+	 .promote-line a:nth-child(2) {
+		margin-right: 0;
+	}
+</style>
+</div>
+<script src="/js/app.min.js?248"></script><script src="/js/main/dist/main.js?248"></script><script src="/js/functions.min.js?248"></script><script src="/js/all.min.js?248"></script><script src="/js/comments.min.js?248"></script><script src="/js/matches_esport.min.js?248"></script>
+<footer>
+<div class="wrap">
+
+	
+	<ul class="second-nav">
+		<li><a href="#/questions/">Обратная связь</a></li>
+		<li><a href="#/vacancy/">Вакансии</a></li>
+		<li><a href="#/adv/">Реклама</a></li>
+		<li><a href="#/contacts/">Контакты</a></li>
+		<li><a href="#/privacy/">Политика конфиденциальности</a></li>
+	</ul>
+		<div class="copyright">&copy; 2010-2019 Все права защищены</div>
+	<div class="counter"><!--LiveInternet counter--><script type="text/javascript">
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t12.3;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+</script><!--/LiveInternet-->
+	</div>
+	<div class="ages">18+</div>
+	<div class="stormwall"><a href="#//stormwall.pro/services/website_protection.php" target="_blank" title="Защита от DDoS атак | StormWall">Защита сайта от DDoS атак - <img src="/img/stormwall.png?3"> StormWall</a></div>
+</div>
+
+</footer>
+
+
+
+
+<div id="button-move-up"><i class="fa fa-angle-double-up fa-2x"></i></div>
+
+
+<div data-page-current-section=""></div>
+<div>
+	<div id="page-current-section" data-value=""></div>
+	<div id="page-current-address" data-value=""></div>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+    const TOKEN = 'token';
+    // TODO: Move to config Class
+    if (typeof(Utils) !== 'undefined') {
+        Utils.privilegesCache = [];
+        Utils.captcha_type = "google";
+        Utils.isLogged = false;
+        Utils.isBanned = false;
+        Utils.timezone = "Europe/Moscow";
+        Utils.user_id = parseInt("");
+        Utils.prefix = "forum/";
+        Utils.username = "";
+        Utils.username_safe = "";
+        Utils.user_link = "";
+        Utils.nick_color = "";
+        Utils.avatar_small = "";
+        Utils.avatar_timestamp = "";
+        Utils.is_online = parseInt("");
+
+        Utils.server_name = "dota2.ru";
+
+        Utils.isSuperUser = false;
+        Utils.isAdmin = false;
+        Utils.isSuperModerator = false;
+        Utils.isGlobalModerator = false;
+
+        Utils.config.chat.server = "dota2.ru";
+        Utils.config.chat.port = parseInt("7020");
+        Utils.config.chatUpdateInterval = parseInt("10000");
+        Utils.config.chatIdleStartInterval = parseInt("300");
+        Utils.config.chatIdleInterval = parseInt("30000");
+        Utils.config.chatIdleIntervalLimit = parseInt("600");
+
+        Utils.config.spamRestrictPosts = parseInt("100");
+
+        Utils.config.post.charLimit = 100000;
+        Utils.config.post.limitPostsAfterLoad = 2;
+        Utils.config.post.smilesLimit = 100;
+        Utils.config.post.imgLimit = 300;
+        Utils.config.post.iframeLimit = 20;
+
+        Utils.config.profile.signatureCharLimit = 500;
+        Utils.config.profile.statusCharLimit = 110;
+
+        Utils.config.topic.createTopicThrottleTime = 180;
+
+        $(document).ready(function () {
+                                            });
+    } else {
+        console.log('[app] Utils no loaded');
+    }
+
+</script>
+
+
+
+</div> <!-- Full -->
+
+
+<!-- modal -->
+<div id="loginModal" style="display:none;" class="popup-overlay">
+	<div class="popup">
+		<div class="close"><i class="fa fa-times"></i></div><h2>Авторизация</h2>
+    <div class="p-content p-text">
+        <form id="loginForm" class="login-site-form form-center" method="post" action="javascript:login()" novalidate="novalidate">
+            <input type="text" class="form-ctrl" id="login_credential" placeholder="Электронная почта или ник пользователя" required="" aria-required="true" autofocus>
+            <input type="password" autocomplete="off" class="form-ctrl" minlength="6" placeholder="Пароль" id="login_password" required="" aria-required="true">
+            <label>
+                <input id="login_remember_me" type="checkbox" checked="">
+                Запомнить меня
+            </label>
+            <div class="row">
+                <div class="large-4 columns large-offset-4">
+                    <button style="padding: 0" id="loginBtn" data-loading-text="Авторизация..." type="submit" class="button-theme btn-block">
+                        Войти
+                    </button>
+
+                    <div class="text-center margin-top-5">
+                        <a href="/members/login/vk/" title="Войти через VK">
+                            <div class="vkbtn button-auth">
+                            <i class="icon">
+                                <i class="fa fa-vk fa-2x margin-5">
+                                </i>
+                            </i>
+                            <div class="slide">
+                                <p>
+                                    &nbsp;Вконтакте
+                                </p>
+                            </div>
+                            </div></a>
+                        <a href="/members/login/steam/" title="Войти через Steam">
+                            <div class="steambtn button-auth">
+                            <i class="icon">
+                                <i class="fa fa-steam fa-2x margin-5">
+                                </i>
+                            </i>
+                            <div class="slide">
+                                <p>
+                                    &nbsp;Steam
+                                </p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="text-center margin-top-5">
+                        <a href="/forum/password-recovery/">Забыли пароль?</a>
+                        /
+                        <a href="#" id="site-register">Зарегистрироваться?</a>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+<script>
+    $(document).on('keypress',function(e) {
+        if(e.which == 13) {
+            $('#loginForm').submit();
+        }
+    });
+
+    /**
+     * Login an user
+     * @param login
+     * @param password
+     * @param remember
+     * @param btn
+     * @returns {*}
+     */
+    function login(login, password, remember, btn) {
+        login = login === undefined ? $('#login_credential').val() : login;
+        password = password === undefined ? $('#login_password').val() : password;
+        remember = remember === undefined ? $('#login_remember_me').is(':checked') : remember;
+
+        let forecastVote = '';
+        let matchId = '';
+        let teamId = '';
+
+        console.log('Auth.login(' + login + ', ******, ' + (remember ? 1 : 0) + ')');
+
+        if (login.length === 0)
+            return createNotice('Введите почтовый ящик или имя пользователя');
+
+        if (password.length === 0)
+            return createNotice('Введите пароль');
+
+        requestHandler.ajaxRequest('/api/user/auth', {
+            login: login,
+            password: password,
+            remember: remember,
+            silent: false,
+            referer: 'https://dota2.ru/',
+        }, function(result) {
+            switch (result.status) {
+                case 'success':
+                    if (forecastVote.length > 0) {
+                        //check if vote for forecast
+                        $.ajax({
+                            url: '/esport/forecast/ajaxVote/' + matchId + '/' + teamId,
+                            type: 'get',
+                            success: function (response) {
+                                // do nothing
+                            },
+                        });
+                    }
+
+                    popup_hide();
+                    $('.login').remove();
+
+                    let adminText =  '';
+                    let notifyText = '';
+                    let msgText = '';
+
+                    if (result.isAdmin === true)
+                        adminText = '<a href="/forum/admin/" target="_blank" class="icon" title="Администратор">\n' +
+                            '<i class="fa fa-user"></i></a>\n';
+
+                    if (result.notifyCount > 0)
+                        notifyText = '<span class="new">' + result.notifyCount + '</span>';
+
+                    if (result.msgCount > 0)
+                        msgText = '<span class="new">' + result.msgCount + '</span>';
+
+                    $('.social').after('<div class="userbar">\n' +
+                        '<div class="hello"><span class="hello-text">Здравствуй, </span><a href="/forum/members/'+result.acc_link+'/"><span class="username">'+result.username+'</span></a></div>\n' +
+                        adminText+
+                        '<a href="/forum/conversations/" class="icon" title="Сообщения">\n' +
+                        '<i class="fa fa-envelope-o"></i>' + msgText + '</a>\n' +
+                        '<a href="/forum/notifications/" class="icon" title="Уведомления">\n' +
+                        '<i class="fa fa-bell-o"></i>' + notifyText + '</a>\n' +
+                        '<a href="/forum/settings/" class="icon" title="Настройки"><i class="fa fa-cog"></i></a>\n' +
+                        '<a href="#" class="icon site-logout" title="Выйти"><i class="fa fa-sign-out"></i></a>\n' +
+                        '</div>');
+
+                    createNotice('Вы успешно авторизовались');
+                    break;
+                case 'throttle':
+                    createNotice('Вы исчерпали лимит попыток входа в аккаунт<br>Попробуйте завтра');
+                    break;
+                case 'wrongCredentials':
+                    createNotice('Не корректный логин или пароль<br>После 5 попыток IP адрес будет временно заблокирован');
+                    break;
+            }
+        });
+    }
+</script>	</div>
+</div>
+
+<script>
+$(".site-login").click(function(e) {
+$('#loginModal').show();
+});
+</script>
+
+<script>
+$(".site-login").click(function(e) {
+  $('#loginModal').show();
+});
+ $(".popup").find(".close").off("click").on("click", function() {
+    $(".popup-overlay").hide();
+});
+</script>
+<!-- modal end -->
+
+
+
+<div class="title-tooltipe"></div>
+</body>
+</html>

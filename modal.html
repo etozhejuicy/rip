@@ -1,0 +1,148 @@
+<div class="popup-overlay">
+	<div class="popup">
+		<div class="close"><i class="fa fa-times"></i></div><h2>Авторизация</h2>
+    <div class="p-content p-text">
+        <form id="loginForm" class="login-site-form form-center" method="post" action="javascript:login()" novalidate="novalidate">
+            <input type="text" class="form-ctrl" id="login_credential" placeholder="Электронная почта или ник пользователя" required="" aria-required="true" autofocus>
+            <input type="password" autocomplete="off" class="form-ctrl" minlength="6" placeholder="Пароль" id="login_password" required="" aria-required="true">
+            <label>
+                <input id="login_remember_me" type="checkbox" checked="">
+                Запомнить меня
+            </label>
+            <div class="row">
+                <div class="large-4 columns large-offset-4">
+                    <button style="padding: 0" id="loginBtn" data-loading-text="Авторизация..." type="submit" class="button-theme btn-block">
+                        Войти
+                    </button>
+
+                    <div class="text-center margin-top-5">
+                        <a href="/members/login/vk/" title="Войти через VK">
+                            <div class="vkbtn button-auth">
+                            <i class="icon">
+                                <i class="fa fa-vk fa-2x margin-5">
+                                </i>
+                            </i>
+                            <div class="slide">
+                                <p>
+                                    &nbsp;Вконтакте
+                                </p>
+                            </div>
+                            </div></a>
+                        <a href="/members/login/steam/" title="Войти через Steam">
+                            <div class="steambtn button-auth">
+                            <i class="icon">
+                                <i class="fa fa-steam fa-2x margin-5">
+                                </i>
+                            </i>
+                            <div class="slide">
+                                <p>
+                                    &nbsp;Steam
+                                </p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="text-center margin-top-5">
+                        <a href="/forum/password-recovery/">Забыли пароль?</a>
+                        /
+                        <a href="#" id="site-register">Зарегистрироваться?</a>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+<script>
+    $(document).on('keypress',function(e) {
+        if(e.which == 13) {
+            $('#loginForm').submit();
+        }
+    });
+
+    /**
+     * Login an user
+     * @param login
+     * @param password
+     * @param remember
+     * @param btn
+     * @returns {*}
+     */
+    function login(login, password, remember, btn) {
+        login = login === undefined ? $('#login_credential').val() : login;
+        password = password === undefined ? $('#login_password').val() : password;
+        remember = remember === undefined ? $('#login_remember_me').is(':checked') : remember;
+
+        let forecastVote = '';
+        let matchId = '';
+        let teamId = '';
+
+        console.log('Auth.login(' + login + ', ******, ' + (remember ? 1 : 0) + ')');
+
+        if (login.length === 0)
+            return createNotice('Введите почтовый ящик или имя пользователя');
+
+        if (password.length === 0)
+            return createNotice('Введите пароль');
+
+        requestHandler.ajaxRequest('/api/user/auth', {
+            login: login,
+            password: password,
+            remember: remember,
+            silent: false,
+            referer: 'https://dota2.ru/',
+        }, function(result) {
+            switch (result.status) {
+                case 'success':
+                    if (forecastVote.length > 0) {
+                        //check if vote for forecast
+                        $.ajax({
+                            url: '/esport/forecast/ajaxVote/' + matchId + '/' + teamId,
+                            type: 'get',
+                            success: function (response) {
+                                // do nothing
+                            },
+                        });
+                    }
+
+                    popup_hide();
+                    $('.login').remove();
+
+                    let adminText =  '';
+                    let notifyText = '';
+                    let msgText = '';
+
+                    if (result.isAdmin === true)
+                        adminText = '<a href="/forum/admin/" target="_blank" class="icon" title="Администратор">\n' +
+                            '<i class="fa fa-user"></i></a>\n';
+
+                    if (result.notifyCount > 0)
+                        notifyText = '<span class="new">' + result.notifyCount + '</span>';
+
+                    if (result.msgCount > 0)
+                        msgText = '<span class="new">' + result.msgCount + '</span>';
+
+                    $('.social').after('<div class="userbar">\n' +
+                        '<div class="hello"><span class="hello-text">Здравствуй, </span><a href="/forum/members/'+result.acc_link+'/"><span class="username">'+result.username+'</span></a></div>\n' +
+                        adminText+
+                        '<a href="/forum/conversations/" class="icon" title="Сообщения">\n' +
+                        '<i class="fa fa-envelope-o"></i>' + msgText + '</a>\n' +
+                        '<a href="/forum/notifications/" class="icon" title="Уведомления">\n' +
+                        '<i class="fa fa-bell-o"></i>' + notifyText + '</a>\n' +
+                        '<a href="/forum/settings/" class="icon" title="Настройки"><i class="fa fa-cog"></i></a>\n' +
+                        '<a href="#" class="icon site-logout" title="Выйти"><i class="fa fa-sign-out"></i></a>\n' +
+                        '</div>');
+
+                    createNotice('Вы успешно авторизовались');
+                    break;
+                case 'throttle':
+                    createNotice('Вы исчерпали лимит попыток входа в аккаунт<br>Попробуйте завтра');
+                    break;
+                case 'wrongCredentials':
+                    createNotice('Не корректный логин или пароль<br>После 5 попыток IP адрес будет временно заблокирован');
+                    break;
+            }
+        });
+    }
+</script>	</div>
+</div>
